@@ -1,0 +1,23 @@
+\t (00:00:06) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:06)     Journal start - Tue Feb 23 15:26:44 2021
+\t (00:00:06)         Host=PROCESSOR21 User=PROCESSOR Pid=7816 CPUs=8
+\t (00:00:06) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Database opened: C:/SPB_Data/tack_switch.dra
+\i (00:00:07) trapsize 72
+\i (00:00:07) trapsize 71
+\i (00:00:07) trapsize 72
+\i (00:00:08) trapsize 74
+\i (00:00:08) trapsize 74
+\i (00:00:08) trapsize 119
+\i (00:00:08) generaledit 
+\i (00:00:10) open 
+\i (00:00:41) fillin "C:\orcadData\allegro\EXAMDCCIRCUIT.brd"
+\i (00:00:41) cd "C:\orcadData\allegro"
+\t (00:00:41) Opening existing design...
+\i (00:00:41) trapsize 3819
+\i (00:00:42) trapsize 3687
+\i (00:00:42) trapsize 3819
+\i (00:00:42) trapsize 3847
+\i (00:00:42) trapsize 3847
+\t (00:00:42)     Journal end - Tue Feb 23 15:27:20 2021

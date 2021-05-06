@@ -1,0 +1,13 @@
+{ Using PSTWRITER 16.6.0 d001Feb-05-2021 at 09:43:00 }
+
+#1 WARNING(ORCAP-36006): Part Name "SW PUSHBUTTON-SPST-2_TACK_SWITCH_SW PUSHBUTTON-SPST-2" is renamed to "SW PUSHBUTTON-SPST-2_TACK_SWITC".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\ORCADDATA\ATMEGA\allegro/pstchip.dat
+
+Loading... C:\ORCADDATA\ATMEGA\allegro/pstchip.dat
+
+Loading... C:\ORCADDATA\ATMEGA\allegro/pstxprt.dat
+
+Loading... C:\ORCADDATA\ATMEGA\allegro/pstxnet.dat
+packaging the design view...

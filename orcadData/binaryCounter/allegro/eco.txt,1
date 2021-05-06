@@ -1,0 +1,151 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd                        |
+|                                                    Mon Oct 26 16:16:04 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C1.2                           
+                                 D1.1                           
+                                 D2.1                           
+                                 D3.1                           
+                                 D4.1                           
+                                 D5.1                           
+                                 R4.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00195       pins ADDED TO this new net
+                                 D1.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00235       pins ADDED TO this new net
+                                 D2.2           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00273       pins ADDED TO this new net
+                                 D3.2           R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00311       pins ADDED TO this new net
+                                 D4.2           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00349       pins ADDED TO this new net
+                                 D5.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00426       pins ADDED TO this new net
+                                 C1.1           R1.1           U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00444       pins ADDED TO this new net
+                                 R1.2           U1.2           U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00472       pins ADDED TO this new net
+                                 R2.2           U2.2           U3.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00631       pins ADDED TO this new net
+                                 R7.2           U3.1           U3.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00638       pins ADDED TO this new net
+                                 R3.2           U3.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00645       pins ADDED TO this new net
+                                 R6.2           U3.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00652       pins ADDED TO this new net
+                                 R5.2           U3.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd                        |
+|                                                    Mon Oct 26 16:16:04 2020  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N01422       pins ADDED TO this new net
+                                 R4.2           SW1.2          U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this existing net (pins not previously on any net)
+                                 SW1.1                          
+                                 U3.2                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd                        |
+|                                                    Mon Oct 26 16:16:04 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74HC14_1_DIP14_3_74HC14
+ 74HC14_DIP14_3_74HC14
+ 74HC93_7_DIP14_3_74HC93
+ CAP_CAP400_100U
+ LED_CAP196_LED
+ R_RES400_200
+ R_RES400_30K
+ SW SPST_1_JUMPER2_SW SPST
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd                        |
+|                                                    Mon Oct 26 16:16:04 2020  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_CAP400_100U       
+ D1                  LED_CAP196_LED        
+ D2                  LED_CAP196_LED        
+ D3                  LED_CAP196_LED        
+ D4                  LED_CAP196_LED        
+ D5                  LED_CAP196_LED        
+ R1                  R_RES400_30K          
+ R2                  R_RES400_200          
+ R3                  R_RES400_200          
+ R4                  R_RES400_200          
+ R5                  R_RES400_200          
+ R6                  R_RES400_200          
+ R7                  R_RES400_200          
+ SW1                 SW SPST_1_JUMPER2_SW SPST 
+ U1                  74HC14_DIP14_3_74HC14 
+ U2                  74HC14_1_DIP14_3_74HC14 
+ U3                  74HC93_7_DIP14_3_74HC93 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd                        |
+|                                                    Mon Oct 26 16:16:04 2020  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ SW1.2                          PRIM_FILE      .\pstchip.dat
+ U1.2                           PRIM_FILE      .\pstchip.dat
+ U2.2                           PRIM_FILE      .\pstchip.dat
+ U3.3                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  82                                             |
+|------------------------------------------------------------------------------|

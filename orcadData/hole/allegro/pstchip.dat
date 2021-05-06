@@ -1,0 +1,15 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Feb-16-2021 at 09:49:35}
+primitive 'TEST POINT_MYHOLEPAD_TEST POINT';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TEST POINT';
+    JEDEC_TYPE='myholepad';
+    VALUE='TEST POINT';
+  end_body;
+end_primitive;
+END.

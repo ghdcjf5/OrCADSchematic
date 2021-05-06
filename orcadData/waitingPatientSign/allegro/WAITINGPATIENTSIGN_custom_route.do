@@ -1,0 +1,6 @@
+# start of do file
+
+do C:/ORCADDATA/WAITINGPATIENTSIGN/allegro/WAITINGPATIENTSIGN_setup.do
+do C:/ORCADDATA/WAITINGPATIENTSIGN/allegro/WAITINGPATIENTSIGN_route.do
+
+# end of do file

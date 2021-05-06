@@ -1,0 +1,210 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Feb-02-2021 at 15:08:32 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ATMEGA';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_CAPCK05_5':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS7687@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins7687@discrete.\cap.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins7687@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAPCK05_5':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS7712@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins7712@discrete.\cap np.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins7712@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CAPCK05_100N':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS8037@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins8037@discrete.\cap np.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins8037@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_CAPCK05_5':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS5099@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins5099@discrete.\cap np.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins5099@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_CAPCK05_5':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS5115@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins5115@discrete.\cap np.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins5115@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_CAPCK05_100N':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS2584@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins2584@discrete.\cap np.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins2584@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS7737@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins7737@discrete.\led.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins7737@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_0_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS3741@ATMEGA.CON2_0.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins3741@atmega.\con2_0.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins3741@atmega.\con2_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON8_MYCON8_CON8':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS368@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins368@connector.\con8.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins368@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON8_MYCON8_CON8':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS287@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins287@connector.\con8.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins287@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON6_1_DIP6_3_CON6':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS1923@ATMEGA.CON6_1.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins1923@atmega.\con6_1.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins1923@atmega.\con6_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON8_MYCON8_CON8':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS315@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins315@connector.\con8.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins315@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON8_MYCON8_CON8':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS259@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins259@connector.\con8.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins259@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS352@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins352@connector.\con2.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins352@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_INDUCTOR_10U':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS7787@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins7787@discrete.\inductor.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins7787@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS7762@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins7762@discrete.\r.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins7762@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS2196@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins2196@discrete.\r.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins2196@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON-SPST-2_TACK_SWITC':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS3121@DISCRETE.SW PUSHBUTTON-SPST-2.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins3121@discrete.\sw pushbutton-spst-2.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins3121@discrete.\sw pushbutton-spst-2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'ATMEGA16_3_DIP40_6_ATMEGA16':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS116@ATMEGA.ATMEGA16_3.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins116@atmega.\atmega16_3.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins116@atmega.\atmega16_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_CRYSTAL_CRYSTAL':;
+
+SECTION_NUMBER 1
+ '@ATMEGA.SCHEMATIC1(SCH_1):INS5072@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@atmega.schematic1(sch_1):ins5072@discrete.\crystal.normal\(chips)',
+ P_PATH='@atmega.schematic1(sch_1):page1_ins5072@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

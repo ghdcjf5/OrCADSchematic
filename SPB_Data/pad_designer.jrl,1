@@ -1,0 +1,87 @@
+\t (00:00:00) pad_designer 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:00)     Journal start - Wed Feb 10 15:20:17 2021
+\t (00:00:00)         Host=PROCESSOR21 User=PROCESSOR Pid=2292 CPUs=8
+\t (00:00:00) 
+\i (00:00:11) setwindow form.padedit
+\i (00:00:11) FORM padedit units Millimeter 
+\i (00:00:13) fillin yes 
+\w (00:00:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:43) FORM padedit hole_size_x 3 
+\i (00:00:57) FORM padedit drill_fig Circle 
+\i (00:01:01) FORM padedit layers  
+\i (00:01:26) FORM padedit geometry Circle 
+\i (00:01:30) FORM padedit geometry Null 
+\i (00:01:32) FORM padedit grid row end_layer 
+\i (00:01:34) FORM padedit geometry Circle 
+\i (00:01:39) FORM padedit width 3 
+\i (00:01:41) FORM padedit height 3 
+\i (00:01:41) FORM padedit crossbox YES 
+\i (00:02:13) FORM padedit geometry_th Circle 
+\i (00:02:23) FORM padedit width_th 3.1 
+\i (00:03:27) FORM padedit grid row begin_layer 
+\i (00:03:31) FORM padedit geometry Circle 
+\i (00:03:36) FORM padedit geometry_th Circle 
+\i (00:03:42) FORM padedit width 6 
+\i (00:03:45) FORM padedit height 6 
+\i (00:03:49) FORM padedit width_th 6.1 
+\i (00:03:51) FORM padedit grid row end_layer 
+\i (00:03:56) FORM padedit grid row default_internal 
+\i (00:03:56) FORM padedit grid row begin_layer 
+\i (00:03:57) FORM padedit grid row end_layer 
+\i (00:03:57) FORM padedit grid row default_internal 
+\i (00:03:58) FORM padedit grid row begin_layer 
+\i (00:03:58) FORM padedit grid row default_internal 
+\i (00:03:59) FORM padedit grid row end_layer 
+\i (00:04:01) FORM padedit stackbox YES 
+\i (00:04:04) FORM padedit crossbox YES 
+\i (00:04:07) FORM padedit grid row begin_layer 
+\i (00:04:07) FORM padedit grid row end_layer 
+\i (00:04:12) FORM padedit width 6 
+\i (00:04:14) FORM padedit height 6 
+\i (00:04:17) FORM padedit width_th 6 
+\i (00:04:22) FORM padedit width_th 6.1 
+\i (00:04:23) FORM padedit parameters  
+\i (00:04:24) FORM padedit layers  
+\i (00:04:25) FORM padedit stackbox YES 
+\i (00:04:26) FORM padedit crossbox YES 
+\i (00:04:28) FORM padedit grid row end_layer 
+\i (00:04:28) FORM padedit grid row begin_layer 
+\i (00:04:31) FORM padedit grid row end_layer 
+\i (00:04:33) FORM padedit grid row default_internal 
+\i (00:04:38) FORM padedit geometry Circle 
+\i (00:04:41) FORM padedit width 6 
+\i (00:04:44) FORM padedit width_th 6.1 
+\i (00:04:48) FORM padedit width_th 6.1 
+\i (00:04:50) FORM padedit geometry_th Circle 
+\i (00:04:54) FORM padedit width_th 6.1 
+\i (00:04:56) FORM padedit stackbox YES 
+\i (00:05:01) FORM padedit crossbox YES 
+\i (00:05:03) pse_save_as 
+\i (00:05:13) setwindow text
+\i (00:05:13) close 
+\i (00:05:15) fillin no 
+\i (00:05:19) setwindow form.padedit
+\i (00:05:19) FORM padedit parameters  
+\i (00:05:25) FORM padedit drill_width 3 
+\i (00:05:28) FORM padedit drill_height 3 
+\i (00:05:28) pse_save_as 
+\i (00:05:31) setwindow text
+\i (00:05:31) close 
+\i (00:05:32) fillin no 
+\i (00:05:33) setwindow form.padedit
+\i (00:05:33) FORM padedit layers  
+\i (00:05:34) FORM padedit grid row begin_layer 
+\i (00:05:36) FORM padedit geometry_ant Circle 
+\i (00:05:39) FORM padedit width_ant 6.1 
+\i (00:05:43) FORM padedit grid row default_internal 
+\i (00:05:45) FORM padedit geometry_ant Circle 
+\i (00:05:50) FORM padedit width_ant 6.1 
+\i (00:05:55) FORM padedit height_ant 6.1 
+\i (00:05:55) FORM padedit grid row end_layer 
+\i (00:05:57) FORM padedit geometry_ant Circle 
+\i (00:05:59) FORM padedit width_ant 6.1 
+\i (00:06:02) FORM padedit height_ant 6.1 
+\i (00:06:02) pse_save_as 
+\i (00:06:54) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\myHolePad.pad"
+\i (00:09:22) pse_exit
+\t (00:09:22)     Journal end - Wed Feb 10 15:29:39 2021

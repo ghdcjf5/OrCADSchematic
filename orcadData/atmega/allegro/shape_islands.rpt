@@ -1,0 +1,48 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : ATMEGA.brd                                    )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Thu Feb 04 15:08:13 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 31
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (68.7827 13.4502)  Net: GND
+	Point on shape: (11.1751 15.9902)  Net: GND
+	Point on shape: (74.7827 15.9902)  Net: GND
+	Point on shape: (11.1751 18.5302)  Net: GND
+	Point on shape: (79.7827 18.5302)  Net: GND
+	Point on shape: (11.1751 21.0702)  Net: GND
+	Point on shape: (78.7484 21.0702)  Net: GND
+	Point on shape: (56.8951 23.6102)  Net: GND
+	Point on shape: (11.1751 23.6102)  Net: GND
+	Point on shape: (86.7827 23.6102)  Net: GND
+	Point on shape: (11.1751 26.1502)  Net: GND
+	Point on shape: (87.8284 26.1502)  Net: GND
+	Point on shape: (11.1751 28.6902)  Net: GND
+	Point on shape: (87.6381 30.5060)  Net: GND
+	Point on shape: (34.0234 30.9247)  Net: GND
+	Point on shape: (11.1751 46.4702)  Net: GND
+	Point on shape: (56.8951 46.4702)  Net: GND
+	Point on shape: (42.0753 48.2163)  Net: GND
+	Point on shape: (11.1751 49.0102)  Net: GND
+	Point on shape: (56.8951 49.0102)  Net: GND
+	Point on shape: (11.1751 51.5502)  Net: GND
+	Point on shape: (56.8951 51.5502)  Net: GND
+	Point on shape: (11.1751 54.0902)  Net: GND
+	Point on shape: (56.8951 54.0902)  Net: GND
+	Point on shape: (11.1751 56.6302)  Net: GND
+	Point on shape: (56.8951 56.6302)  Net: GND
+	Point on shape: (11.1751 59.1702)  Net: GND
+	Point on shape: (56.8951 59.1702)  Net: GND
+	Point on shape: (11.1751 61.7102)  Net: GND
+	Point on shape: (56.8951 61.7102)  Net: GND
+	Point on shape: (56.2888 66.1552)  Net: GND

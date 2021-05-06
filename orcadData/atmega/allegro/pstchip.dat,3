@@ -1,0 +1,366 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Feb-04-2021 at 15:05:10}
+primitive 'CAP_CAPCK05_5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='5';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAPCK05_5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='5';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAPCK05_100N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='CAPCK05';
+    VALUE='100n';
+  end_body;
+end_primitive;
+primitive 'LED_CAP196_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='CAP196';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'CON3_DCJACK_CON3';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='dcjack';
+    VALUE='CON3';
+  end_body;
+end_primitive;
+primitive 'CON8_MYCON8_CON8';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON8';
+    JEDEC_TYPE='MYCON8';
+    VALUE='CON8';
+  end_body;
+end_primitive;
+primitive 'CON6_1_DIP6_3_CON6';
+  pin
+    '(MISO)':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3(SCK)':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'MOSI':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'RESET':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'GROUND':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON6_1';
+    JEDEC_TYPE='DIP6_3';
+    VALUE='CON6';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_CRYSTAL_10U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='crystal';
+    VALUE='10u';
+  end_body;
+end_primitive;
+primitive 'R_RES400_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'SW PUSHBUTTON-SPST-2_TACK_SWITC';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SW PUSHBUTTON-SPST-2';
+    JEDEC_TYPE='tack_switch';
+    VALUE='SW PUSHBUTTON-SPST-2';
+  end_body;
+end_primitive;
+primitive 'ATMEGA16_3_DIP40_6_ATMEGA16';
+  pin
+    'PB0 (XCK/T0)':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'PB1':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'PB2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'PB3':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'PB4':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'PB5':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'PB6':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'PB7':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '\\R\E\S\E\T\':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'GND2':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'XTAL2':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'XTAL1':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'PD0 (RXD)':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'PD1 (TXD)':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'PD2 (INT0)':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'PD3 (INT1)':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    'PD4 (OC1B)':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'PD5 (OC1A)':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'PD6 (ICP1)':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'PD7 (OC2)':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'PC0 (SCL)':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'PC1 (SDA)':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    'PC2 (TCK)':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    'PC3 (TMS)':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    'PC4 (TDO)':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+    'PC5 (TDI)':
+      PIN_NUMBER='(27)';
+      PINUSE='UNSPEC';
+    'PC6 (TOSC1)':
+      PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'PC7 (TOSC2)':
+      PIN_NUMBER='(29)';
+      PINUSE='UNSPEC';
+    'AVCC':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(31)';
+      PINUSE='UNSPEC';
+    'AREF':
+      PIN_NUMBER='(32)';
+      PINUSE='UNSPEC';
+    'PA7 (ADC7)':
+      PIN_NUMBER='(33)';
+      PINUSE='UNSPEC';
+    'PA6 (ADC6)':
+      PIN_NUMBER='(34)';
+      PINUSE='UNSPEC';
+    'PA5 (ADC5)':
+      PIN_NUMBER='(35)';
+      PINUSE='UNSPEC';
+    'PA4 (ADC4)':
+      PIN_NUMBER='(36)';
+      PINUSE='UNSPEC';
+    'PA3 (ADC3)':
+      PIN_NUMBER='(37)';
+      PINUSE='UNSPEC';
+    'PA2 (ADC2)':
+      PIN_NUMBER='(38)';
+      PINUSE='UNSPEC';
+    'PA1 (ADC10':
+      PIN_NUMBER='(39)';
+      PINUSE='UNSPEC';
+    'PA0 (ADC0)':
+      PIN_NUMBER='(40)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='atmega16_3';
+    JEDEC_TYPE='DIP40_6';
+    VALUE='ATMEGA16';
+  end_body;
+end_primitive;
+primitive 'CRYSTAL_CRYSTAL_CRYSTAL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CRYSTAL';
+    JEDEC_TYPE='crystal';
+    VALUE='CRYSTAL';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,158 @@
+\t (00:00:00) allegro 16.5 S025 (v16-5-13BK) i86
+\t (00:00:00)     Journal start - Tue Oct 20 16:14:20 2020
+\t (00:00:00)         Host=PROCESS-130 User=PROCESS-000 Pid=8540 CPUs=8
+\t (00:00:00) 
+\t (00:00:00) Opening existing design...
+\d (00:00:01) Database opened: C:/ORCADDATA/DECADECOUNTERPC30/allegro/DECADECOUNTERPC30.brd
+\i (00:00:02) trapsize 17268
+\i (00:00:02) trapsize 16442
+\i (00:00:02) trapsize 17350
+\i (00:00:02) trapsize 16832
+\i (00:00:03) trapsize 14038
+\i (00:00:03) trapsize 16467
+\i (00:00:04) generaledit 
+\i (00:00:07) place manual 
+\i (00:00:14) setwindow form.plc_manual
+\i (00:00:14) FORM plc_manual cancel  
+\i (00:00:14) setwindow pcb
+\i (00:00:14) generaledit 
+\i (00:00:30) xrefdes R3 
+\t (00:00:30) Can not select unplaced component R3.
+\t (00:00:30) Can not select unplaced component R3.
+\i (00:00:30) xrefdes D2 
+\t (00:00:30) Can not select unplaced component D2.
+\t (00:00:30) Can not select unplaced component D2.
+\i (00:00:30) xNet N00937 
+\i (00:00:30) xNet Gnd 
+\i (00:00:30) xNet N01261 
+\i (00:00:30) xname_flush 
+\i (00:00:54) pick grid 11856.29 16137.72
+\t (00:00:54) last pick:  11900.00  16100.00
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 14853.29 14589.82
+\i (00:00:54) trapsize 16467
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 14853.29 14556.88
+\i (00:00:54) trapsize 16467
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 14853.29 14556.88
+\i (00:00:55) trapsize 8234
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 14853.30 14556.88
+\i (00:00:55) trapsize 4117
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 14853.30 14556.88
+\i (00:00:55) trapsize 2058
+\i (00:01:37) xrefdes R1 
+\t (00:01:37) Can not select unplaced component R1.
+\t (00:01:37) Can not select unplaced component R1.
+\i (00:01:37) xrefdes R2 
+\t (00:01:37) Can not select unplaced component R2.
+\t (00:01:37) Can not select unplaced component R2.
+\i (00:01:37) xrefdes U1 
+\t (00:01:37) Can not select unplaced component U1.
+\t (00:01:37) Can not select unplaced component U1.
+\i (00:01:37) xrefdes U1 
+\t (00:01:37) Can not select unplaced component U1.
+\t (00:01:37) Can not select unplaced component U1.
+\i (00:01:37) xrefdes C1 
+\t (00:01:37) Can not select unplaced component C1.
+\t (00:01:37) Can not select unplaced component C1.
+\i (00:01:37) xrefdes U2 
+\t (00:01:37) Can not select unplaced component U2.
+\t (00:01:37) Can not select unplaced component U2.
+\i (00:01:37) xrefdes D1 
+\t (00:01:37) Can not select unplaced component D1.
+\t (00:01:37) Can not select unplaced component D1.
+\i (00:01:37) xrefdes R4 
+\t (00:01:37) Can not select unplaced component R4.
+\t (00:01:37) Can not select unplaced component R4.
+\i (00:01:37) xrefdes D3 
+\t (00:01:37) Can not select unplaced component D3.
+\t (00:01:37) Can not select unplaced component D3.
+\i (00:01:37) xrefdes R5 
+\t (00:01:37) Can not select unplaced component R5.
+\t (00:01:37) Can not select unplaced component R5.
+\i (00:01:37) xrefdes D4 
+\t (00:01:37) Can not select unplaced component D4.
+\t (00:01:37) Can not select unplaced component D4.
+\i (00:01:37) xrefdes R6 
+\t (00:01:37) Can not select unplaced component R6.
+\t (00:01:37) Can not select unplaced component R6.
+\i (00:01:37) xrefdes D5 
+\t (00:01:37) Can not select unplaced component D5.
+\t (00:01:37) Can not select unplaced component D5.
+\i (00:01:37) xrefdes R7 
+\t (00:01:37) Can not select unplaced component R7.
+\t (00:01:37) Can not select unplaced component R7.
+\i (00:01:37) xrefdes D6 
+\t (00:01:37) Can not select unplaced component D6.
+\t (00:01:37) Can not select unplaced component D6.
+\i (00:01:37) xrefdes R8 
+\t (00:01:37) Can not select unplaced component R8.
+\t (00:01:37) Can not select unplaced component R8.
+\i (00:01:37) xrefdes D7 
+\t (00:01:37) Can not select unplaced component D7.
+\t (00:01:37) Can not select unplaced component D7.
+\i (00:01:37) xrefdes R9 
+\t (00:01:37) Can not select unplaced component R9.
+\t (00:01:37) Can not select unplaced component R9.
+\i (00:01:37) xrefdes D8 
+\t (00:01:37) Can not select unplaced component D8.
+\t (00:01:37) Can not select unplaced component D8.
+\i (00:01:37) xrefdes R10 
+\t (00:01:37) Can not select unplaced component R10.
+\t (00:01:37) Can not select unplaced component R10.
+\i (00:01:37) xrefdes D9 
+\t (00:01:37) Can not select unplaced component D9.
+\t (00:01:37) Can not select unplaced component D9.
+\i (00:01:37) xrefdes R11 
+\t (00:01:37) Can not select unplaced component R11.
+\t (00:01:37) Can not select unplaced component R11.
+\i (00:01:37) xrefdes D10 
+\t (00:01:37) Can not select unplaced component D10.
+\t (00:01:37) Can not select unplaced component D10.
+\i (00:01:37) xrefdes R12 
+\t (00:01:37) Can not select unplaced component R12.
+\t (00:01:37) Can not select unplaced component R12.
+\i (00:01:37) xrefdes D11 
+\t (00:01:37) Can not select unplaced component D11.
+\t (00:01:37) Can not select unplaced component D11.
+\i (00:01:37) xrefdes R13 
+\t (00:01:37) Can not select unplaced component R13.
+\t (00:01:37) Can not select unplaced component R13.
+\i (00:01:37) xrefdes D12 
+\t (00:01:37) Can not select unplaced component D12.
+\t (00:01:37) Can not select unplaced component D12.
+\i (00:01:37) xNet N00790 
+\i (00:01:37) xNet N00812 
+\i (00:01:37) xNet N00808 
+\i (00:01:37) xNet N00845 
+\i (00:01:37) xNet N00878 
+\i (00:01:37) xNet N00874 
+\i (00:01:37) xNet N00882 
+\i (00:01:37) xNet N00905 
+\i (00:01:37) xNet N00901 
+\i (00:01:37) xNet N00925 
+\i (00:01:37) xNet N00921 
+\i (00:01:37) xNet N00917 
+\i (00:01:37) xNet N00933 
+\i (00:01:37) xNet N00929 
+\i (00:01:37) xNet N01275 
+\i (00:01:37) xNet N01268 
+\i (00:01:37) xNet N01289 
+\i (00:01:37) xNet N01282 
+\i (00:01:37) xNet N01310 
+\i (00:01:37) xNet N01303 
+\i (00:01:37) xNet N01296 
+\i (00:01:37) xNet N01324 
+\i (00:01:37) xNet N01317 
+\i (00:01:37) xNet N01331 
+\i (00:01:37) xname_flush 
+\i (00:03:07) exit 
+\t (00:03:08)     Journal end - Tue Oct 20 16:17:28 2020

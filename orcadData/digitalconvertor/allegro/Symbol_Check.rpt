@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : DIGITALCONVERTOR.brd                          )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Fri Feb 05 12:33:54 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_16.6/share/local/pcb/symbols
+	C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols
+	C:/SPB_Data/mylib/
+
+
+All Symbols Found
+
+Total symbols placed:      30 out of 30
+
+

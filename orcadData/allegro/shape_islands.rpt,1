@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : EXAMDCCIRCUIT.brd                             )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Thu Feb 18 11:32:52 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (18.9353 18.4302)  Net: GND

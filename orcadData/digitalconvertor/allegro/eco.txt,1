@@ -1,0 +1,225 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  DIGITALCONVERTOR.brd                                                        |
+|                                                    Fri Feb 05 11:05:31 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           D1.1           
+                                 D2.1           D3.1           D4.1           
+                                 J1.2           R11.2          R19.2          
+                                 U1.1           U2.1           U2.7           
+                                 U2.8           U3.11          U4.11          
+                                 U5.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00470       pins ADDED TO this new net
+                                 R1.2           R3.3           U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00474       pins ADDED TO this new net
+                                 R3.1           R3.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00529       pins ADDED TO this new net
+                                 C2.1           R7.2           U1.2           
+                                 U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00675       pins ADDED TO this new net
+                                 C1.1           U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01165       pins ADDED TO this new net
+                                 R2.1           U2.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01169       pins ADDED TO this new net
+                                 R5.1           U2.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01177       pins ADDED TO this new net
+                                 R10.1          U2.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01317       pins ADDED TO this new net
+                                 R8.1           U2.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01336       pins ADDED TO this new net
+                                 R4.2           R5.2           R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01351       pins ADDED TO this new net
+                                 R6.2           R8.2           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01365       pins ADDED TO this new net
+                                 R9.2           R10.2          R11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02154       pins ADDED TO this new net
+                                 R12.2          R14.1          U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  DIGITALCONVERTOR.brd                                                        |
+|                                                    Fri Feb 05 11:05:31 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N02158       pins ADDED TO this new net
+                                 R14.2          R15.1          U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02162       pins ADDED TO this new net
+                                 R15.2          R17.1          U4.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02166       pins ADDED TO this new net
+                                 R17.2          R19.1          U5.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02891       pins ADDED TO this new net
+                                 R13.1          U3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02895       pins ADDED TO this new net
+                                 R16.1          U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02899       pins ADDED TO this new net
+                                 R18.1          U4.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02903       pins ADDED TO this new net
+                                 R20.1          U5.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02980       pins ADDED TO this new net
+                                 D1.2           R13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02984       pins ADDED TO this new net
+                                 D2.2           R16.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02988       pins ADDED TO this new net
+                                 D3.2           R18.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02992       pins ADDED TO this new net
+                                 D4.2           R20.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04575       pins ADDED TO this new net
+                                 U1.3           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SIG          pins ADDED TO this new net
+                                 R2.2           R4.1           U3.3           
+                                 U3.5           U4.5           U5.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 J1.1           R1.1           R12.1          
+                                 U1.4           U1.8           U2.16          
+                                 U3.4           U4.4           U5.4           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  DIGITALCONVERTOR.brd                                                        |
+|                                                    Fri Feb 05 11:05:31 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 4520_1_SOIC16_4520
+ CAP NP_CAPCK05_0.01U
+ CON2_JUMPER2_CON2
+ C_CAP196_1U
+ LED_CAP196_LED
+ LM324_0_SOIC14_LM324
+ NE555_0_SOIC8_NE555
+ RESISTOR VAR_RESADJ_RESISTOR VA
+ R_RES400_330
+ R_RES400_10K
+ R_RES400_1K
+ R_RES400_1M
+ R_RES400_20K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  DIGITALCONVERTOR.brd                                                        |
+|                                                    Fri Feb 05 11:05:31 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_CAPCK05_0.01U  
+ C2                  C_CAP196_1U           
+ D1                  LED_CAP196_LED        
+ D2                  LED_CAP196_LED        
+ D3                  LED_CAP196_LED        
+ D4                  LED_CAP196_LED        
+ J1                  CON2_JUMPER2_CON2     
+ R1                  R_RES400_10K          
+ R2                  R_RES400_20K          
+ R3                  RESISTOR VAR_RESADJ_RESISTOR VA 
+ R4                  R_RES400_10K          
+ R5                  R_RES400_20K          
+ R6                  R_RES400_10K          
+ R7                  R_RES400_1M           
+ R8                  R_RES400_20K          
+ R9                  R_RES400_10K          
+ R10                 R_RES400_20K          
+ R11                 R_RES400_10K          
+ R12                 R_RES400_1K           
+ R13                 R_RES400_330          
+ R14                 R_RES400_1K           
+ R15                 R_RES400_1K           
+ R16                 R_RES400_330          
+ R17                 R_RES400_1K           
+ R18                 R_RES400_330          
+ R19                 R_RES400_1K           
+ R20                 R_RES400_330          
+ U1                  NE555_0_SOIC8_NE555   
+ U2                  4520_1_SOIC16_4520    
+ U3                  LM324_0_SOIC14_LM324  
+ U4                  LM324_0_SOIC14_LM324  
+ U5                  LM324_0_SOIC14_LM324  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  DIGITALCONVERTOR.brd                                                        |
+|                                                    Fri Feb 05 11:05:31 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          PRIM_FILE      .\pstchip.dat
+ R19.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U2.1                           PRIM_FILE      .\pstchip.dat
+ U3.3                           PRIM_FILE      .\pstchip.dat
+ U3.5                           PRIM_FILE      .\pstchip.dat
+ U4.5                           PRIM_FILE      .\pstchip.dat
+ U5.5                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  168                                            |
+|------------------------------------------------------------------------------|

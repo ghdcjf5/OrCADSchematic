@@ -1,0 +1,1111 @@
+\t (00:00:01) allegro 16.5 S025 (v16-5-13BK) i86
+\t (00:00:01)     Journal start - Tue Oct 20 14:22:14 2020
+\t (00:00:01)         Host=PROCESS-130 User=PROCESS-000 Pid=13776 CPUs=8
+\t (00:00:01) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: C:/ORCADDATA/DECADECOUNTER/allegro/DECADECOUNTER.brd
+\i (00:00:04) trapsize 14680
+\i (00:00:04) trapsize 14310
+\i (00:00:04) trapsize 14744
+\i (00:00:05) trapsize 12555
+\i (00:00:05) trapsize 19749
+\i (00:00:06) generaledit 
+\i (00:00:11) prepopup 19709.15 12994.61
+\i (00:00:12) pick grid 18366.25 15324.95
+\t (00:00:12) last pick:  18400.00  15300.00
+\i (00:00:15) place manual 
+\i (00:00:17) setwindow form.plc_manual
+\i (00:00:17) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:00:18) FORM plc_manual tree 'MULTISEL YES' D1 'Components by refdes' 
+\t (00:00:18) Placing D1 / LED_DO35_LED / DO35 on Top.
+\i (00:00:22) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:00:22) Placing C1 / CAP_CAPCK05_100U / CAPCK05 on Top.
+\i (00:00:22) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:00:22) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:22) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:23) FORM plc_manual done  
+\i (00:00:23) setwindow pcb
+\i (00:00:23) generaledit 
+\i (00:00:24) drag_start grid 7859.96 18682.22
+\i (00:00:25) drag_stop 16707.36 12797.13
+\i (00:00:25) pick grid 12402.15 15522.44
+\t (00:00:25) last pick:  12400.00  15500.00
+\i (00:00:26) drag_start grid 17457.81 15443.45
+\i (00:00:26) drag_stop 21565.53 12718.13
+\i (00:00:26) prepopup 16272.89 15324.95
+\i (00:00:27) pick grid 12520.65 16746.86
+\t (00:00:27) last pick:  12500.00  16700.00
+\i (00:00:29) pick grid 13824.06 17773.79
+\t (00:00:29) last pick:  13800.00  17800.00
+\i (00:00:29) place manual 
+\i (00:00:32) setwindow form.plc_manual
+\i (00:00:32) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:32) Placing C1 / CAP_CAPCK05_100U / CAPCK05 on Top.
+\i (00:00:32) FORM plc_manual tree  'Components by refdes' 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) refdes U1 
+\i (00:02:13) refdes U1 
+\i (00:02:13) refdes C1 
+\i (00:02:13) refdes D1 
+\i (00:02:13) refdes R2 
+\i (00:02:13) refdes R1 
+\i (00:02:13) refdes U2 
+\i (00:02:13) refdes D2 
+\i (00:02:13) refdes R3 
+\i (00:02:13) refdes D3 
+\i (00:02:13) refdes R4 
+\i (00:02:13) refdes D4 
+\i (00:02:13) refdes R5 
+\i (00:02:13) refdes D5 
+\i (00:02:13) refdes R6 
+\i (00:02:13) refdes D6 
+\i (00:02:13) refdes R7 
+\i (00:02:13) refdes D7 
+\i (00:02:13) refdes R8 
+\i (00:02:13) refdes D8 
+\i (00:02:13) refdes R9 
+\i (00:02:13) refdes D9 
+\i (00:02:13) refdes R10 
+\i (00:02:13) refdes D10 
+\i (00:02:13) refdes R11 
+\i (00:02:13) refdes D11 
+\i (00:02:13) refdes R12 
+\i (00:02:13) Net N00871 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net Gnd 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01151 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01149 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01147 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01145 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01143 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:13) Net N01141 
+\t (00:02:13) Nets are not selectable at this time.
+\i (00:02:14) Net N01139 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01137 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01155 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01153 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01181 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01185 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01245 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01534 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01545 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01538 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01566 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01559 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01552 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01580 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01573 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01594 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) Net N01587 
+\t (00:02:14) Nets are not selectable at this time.
+\i (00:02:14) xname_flush 
+\i (00:03:26) setwindow form.plc_manual
+\i (00:03:26) FORM plc_manual advanced_settings  
+\i (00:03:28) FORM plc_manual library YES 
+\t (00:03:28) Placing C1 / CAP_CAPCK05_100U / CAPCK05 on Top.
+\t (00:03:28) Placing C1 / CAP_CAPCK05_100U / CAPCK05 on Top.
+\i (00:03:30) FORM plc_manual done  
+\i (00:03:30) setwindow pcb
+\i (00:03:30) generaledit 
+\i (00:03:31) place manual 
+\i (00:03:32) setwindow form.plc_manual
+\i (00:03:32) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:03:32) Placing C1 / CAP_CAPCK05_100U / CAPCK05 on Top.
+\i (00:03:32) FORM plc_manual tree  'Components by refdes' 
+\i (00:03:36) FORM plc_manual done  
+\i (00:03:36) setwindow pcb
+\i (00:03:36) generaledit 
+\i (00:03:37) pick grid 6991.02 15996.41
+\t (00:03:37) last pick:  7000.00  16000.00
+\i (00:03:38) pick grid 9755.83 14495.51
+\t (00:03:38) last pick:  9800.00  14500.00
+\i (00:03:39) drag_start grid 9400.36 15759.42
+\i (00:03:39) drag_stop 11493.72 13745.06
+\i (00:03:39) prepopup 11651.70 13705.56
+\i (00:03:41) pick grid 9834.83 15561.94
+\t (00:03:41) last pick:  9800.00  15600.00
+\i (00:03:41) pick grid dbl 9834.83 15561.94
+\t (00:03:41) last pick:  9800.00  15600.00
+\i (00:03:41) drag_start grid 8807.90 17299.82
+\i (00:03:41) drag_stop 11888.69 13587.07
+\i (00:03:42) pick grid 11967.68 13508.08
+\t (00:03:42) last pick:  12000.00  13500.00
+\i (00:03:42) pick grid dbl 11967.68 13508.08
+\t (00:03:42) last pick:  12000.00  13500.00
+\i (00:03:57) prmed 
+\i (00:04:00) setwindow form.prmedit
+\i (00:04:00) FORM prmedit design  
+\i (00:04:21) FORM prmedit units Millimeter 
+\e (00:04:21) Change may cause round-off; run dbcheck.
+\i (00:04:27) FORM prmedit size A4 
+\i (00:06:57) FORM prmedit x -70.0000 
+\e (00:07:02) Must be a real number.
+\i (00:07:04) FORM prmedit lock_direction 90 
+\i (00:07:52) FORM prmedit shapes  
+\i (00:08:14) FORM prmedit dynshp_button  
+\i (00:08:19) setwindow form.dyn_xshape
+\i (00:08:19) FORM dyn_xshape void_controls  
+\i (00:08:24) FORM dyn_xshape art_format Gerber RS274X 
+\i (00:08:27) FORM dyn_xshape done  
+\i (00:08:40) setwindow form.prmedit
+\i (00:08:40) FORM prmedit dynshp_button  
+\i (00:10:05) setwindow form.dyn_xshape
+\i (00:10:05) FORM dyn_xshape done  
+\i (00:10:26) setwindow form.prmedit
+\i (00:10:26) FORM prmedit done  
+\w (00:10:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:10:26) setwindow pcb
+\i (00:10:26) trapsize 18851
+\t (00:10:26) Performing DRC...
+\t (00:10:26) Multithreaded DRC update (8 threads).
+\t (00:10:27) No DRC errors detected.
+\i (00:10:27) generaledit 
+\i (00:10:31) xsection 
+   (00:10:31) Loading floor.cxt 
+   (00:10:31) Loading skillExt.cxt 
+   (00:10:31) Loading axlcore.cxt 
+\i (00:11:23) setwindow form.fplyrstack
+\i (00:11:23) FORM fplyrstack cancel  
+\i (00:11:23) setwindow pcb
+\i (00:11:23) generaledit 
+\i (00:11:42) define grid 
+\t (00:11:42) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:11:42) shape select 
+\i (00:11:46) setwindow form.grid
+\i (00:11:46) FORM grid display YES 
+\i (00:11:55) FORM grid non_etch non_etch_x_grids 0.5 
+\i (00:12:01) FORM grid non_etch non_etch_y_grids 0.5 
+\i (00:12:01) FORM grid done  
+\t (00:12:01) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:12:01) setwindow pcb
+\i (00:12:01) pick grid 116.6248 6.0323
+\t (00:12:01) last pick:  116.5000  6.0000
+\i (00:12:08) trapsize 18784
+\i (00:12:08) trapsize 19056
+\i (00:12:19) trapsize 19022
+\i (00:12:19) trapsize 19126
+\i (00:13:30) board outline 
+   (00:13:30) Loading fputil.cxt 
+\i (00:13:37) setwindow form.fpbdoutline
+\i (00:13:37) FORM fpbdoutline fpboplacerect YES 
+\i (00:13:47) FORM fpbdoutline fpboplacewdt 60MM 
+\i (00:13:50) FORM fpbdoutline fpboplacehgt 50MM 
+\i (00:13:51) FORM fpbdoutline done  
+\i (00:13:51) setwindow pcb
+\i (00:13:51) generaledit 
+\i (00:14:11) board outline 
+\i (00:14:11) pick grid 86.0656 91.0383
+\t (00:14:11) last pick:  86.0000  91.0000
+\i (00:14:13) prepopup 239.0710 115.1366
+\t (00:14:14) last pick:  247.1038  143.4426
+\w (00:14:14) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:14:17) setwindow form.fpbdoutline
+\i (00:14:17) FORM fpbdoutline fpboplacerect YES 
+\i (00:14:26) FORM fpbdoutline fpboplacewdt '60 MM' 
+\i (00:14:28) FORM fpbdoutline fpboplacehgt 50MM 
+\i (00:14:28) FORM fpbdoutline apply  
+\i (00:14:32) fillin confirm
+\i (00:14:33) setwindow pcb
+\i (00:14:33) pick grid 192.4044 93.7158
+\t (00:14:33) last pick:  192.5000  93.5000
+\i (00:14:34) fillin confirm
+\t (00:14:34) last pick:  256.6667  114.7541
+\w (00:14:34) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:14:34) prepopup 256.6667 114.7541
+\t (00:14:35) last pick:  247.4863  114.7541
+\w (00:14:35) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:14:36) Esc 
+\i (00:14:37) Esc 
+\i (00:14:38) setwindow form.fpbdoutline
+\i (00:14:38) FORM fpbdoutline cancel  
+\i (00:14:38) setwindow pcb
+\i (00:14:38) generaledit 
+\i (00:14:38) pick grid 93.7158 141.9126
+\t (00:14:38) last pick:  93.5000  142.0000
+\i (00:14:38) Esc 
+\i (00:14:38) Esc 
+\i (00:14:39) Esc 
+\i (00:14:39) Esc 
+\i (00:14:39) Esc 
+\i (00:14:41) board outline 
+\i (00:14:43) setwindow form.fpbdoutline
+\i (00:14:43) FORM fpbdoutline fpboplacerect YES 
+\i (00:14:47) FORM fpbdoutline fpboplacewdt '60 MM' 
+\i (00:14:53) FORM fpbdoutline fpboplacehgt '00 MM' 
+\i (00:14:54) fillin confirm
+\i (00:15:01) FORM fpbdoutline fpboplacewdt '100 MM' 
+\i (00:15:04) FORM fpbdoutline fpboplacehgt 100MM 
+\i (00:15:04) FORM fpbdoutline apply  
+\i (00:15:06) fillin confirm
+\t (00:15:06) last pick:  291.4754  124.6995
+\w (00:15:06) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:15:07) FORM fpbdoutline done  
+\i (00:15:07) setwindow pcb
+\i (00:15:07) generaledit 
+\i (00:15:10) trapsize 10214
+\i (00:15:11) trapsize 19126
+\i (00:15:17) board outline 
+\i (00:15:18) setwindow form.fpbdoutline
+\i (00:15:18) FORM fpbdoutline fpboplacerect YES 
+\i (00:15:26) FORM fpbdoutline fpboplacewdt '100 MM' 
+\i (00:15:29) FORM fpbdoutline fpboplacehgt '100 MM' 
+\i (00:15:29) FORM fpbdoutline apply  
+\i (00:15:30) fillin confirm
+\i (00:15:31) FORM fpbdoutline done  
+\i (00:15:31) setwindow pcb
+\i (00:15:31) generaledit 
+\i (00:15:33) pick grid -57.7596 93.3333
+\t (00:15:33) last pick:  -58.0000  93.5000
+\i (00:15:34) pick grid 82.6230 135.4098
+\t (00:15:34) last pick:  82.5000  135.5000
+\i (00:15:34) zoom out 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom out 81.8579 134.2623
+\i (00:15:34) trapsize 19126
+\i (00:15:34) zoom out 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom out 81.4754 134.2623
+\i (00:15:34) trapsize 19126
+\i (00:15:34) zoom out 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom out 81.4754 134.2623
+\i (00:15:34) trapsize 19126
+\i (00:15:34) zoom out 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom out 81.4754 134.2623
+\i (00:15:34) trapsize 19126
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5628 134.2623
+\i (00:15:34) trapsize 9563
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5628 134.2623
+\i (00:15:34) trapsize 4781
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5628 134.2624
+\i (00:15:34) trapsize 2391
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5628 134.2624
+\i (00:15:34) trapsize 1195
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5629 134.2624
+\i (00:15:34) trapsize 598
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5629 134.2624
+\i (00:15:34) trapsize 299
+\i (00:15:34) zoom in 1 
+\i (00:15:34) setwindow pcb
+\i (00:15:34) zoom in 79.5629 134.2624
+\i (00:15:35) trapsize 149
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5600 134.2624
+\i (00:15:35) trapsize 299
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5599 134.2624
+\i (00:15:35) trapsize 598
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5599 134.2625
+\i (00:15:35) trapsize 1195
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5600 134.2624
+\i (00:15:35) trapsize 2391
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5600 134.2625
+\i (00:15:35) trapsize 4781
+\i (00:15:35) zoom out 1 
+\i (00:15:35) setwindow pcb
+\i (00:15:35) zoom out 79.5600 134.2624
+\i (00:15:35) trapsize 9563
+\i (00:15:36) zoom out 1 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) zoom out 79.5600 134.2625
+\i (00:15:36) trapsize 19126
+\i (00:15:36) zoom out 1 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) zoom out 79.1803 134.2623
+\i (00:15:36) trapsize 19126
+\i (00:15:36) zoom out 1 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) zoom out 79.1803 134.2623
+\i (00:15:36) trapsize 19126
+\i (00:15:36) zoom out 1 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) zoom out 79.1803 134.2623
+\i (00:15:36) trapsize 19126
+\i (00:15:37) zoom out 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom out 79.1803 134.2623
+\i (00:15:37) trapsize 19126
+\i (00:15:37) zoom out 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom out 79.1803 134.2623
+\i (00:15:37) trapsize 19126
+\i (00:15:37) zoom out 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom out 79.1803 134.2623
+\i (00:15:37) trapsize 19126
+\i (00:15:37) zoom out 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom out 79.1803 134.2623
+\i (00:15:37) trapsize 19126
+\i (00:15:37) zoom out 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom out 79.1803 134.2623
+\i (00:15:37) trapsize 19126
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1803 134.2623
+\i (00:15:37) trapsize 9563
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1803 134.2623
+\i (00:15:37) trapsize 4781
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1804 134.2624
+\i (00:15:37) trapsize 2391
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1804 134.2624
+\i (00:15:37) trapsize 1195
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1805 134.2624
+\i (00:15:37) trapsize 598
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1805 134.2624
+\i (00:15:37) trapsize 299
+\i (00:15:37) zoom in 1 
+\i (00:15:37) setwindow pcb
+\i (00:15:37) zoom in 79.1805 134.2624
+\i (00:15:37) trapsize 149
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2624
+\i (00:15:38) trapsize 75
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2624
+\i (00:15:38) trapsize 37
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2624
+\i (00:15:38) trapsize 19
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2624
+\i (00:15:38) trapsize 9
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2624
+\i (00:15:38) trapsize 5
+\i (00:15:38) zoom in 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom in 79.1776 134.2625
+\i (00:15:38) trapsize 2
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1777 134.2625
+\i (00:15:38) trapsize 5
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1776 134.2625
+\i (00:15:38) trapsize 9
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1775 134.2624
+\i (00:15:38) trapsize 19
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1776 134.2625
+\i (00:15:38) trapsize 37
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1776 134.2625
+\i (00:15:38) trapsize 75
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1776 134.2625
+\i (00:15:38) trapsize 149
+\i (00:15:38) zoom out 1 
+\i (00:15:38) setwindow pcb
+\i (00:15:38) zoom out 79.1776 134.2625
+\i (00:15:38) trapsize 299
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1775 134.2625
+\i (00:15:39) trapsize 598
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1775 134.2625
+\i (00:15:39) trapsize 1195
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1776 134.2626
+\i (00:15:39) trapsize 2390
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1775 134.2626
+\i (00:15:39) trapsize 4781
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1776 134.2626
+\i (00:15:39) trapsize 9562
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 79.1776 134.2626
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 78.7978 134.2623
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 78.7978 134.2623
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 78.7978 134.2623
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 78.7978 134.2623
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom out 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom out 78.7978 134.2623
+\i (00:15:39) trapsize 19126
+\i (00:15:39) zoom in 1 
+\i (00:15:39) setwindow pcb
+\i (00:15:39) zoom in 78.7978 134.2623
+\i (00:15:39) trapsize 9563
+\i (00:15:40) zoom in 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom in 78.7978 134.2623
+\i (00:15:40) trapsize 4781
+\i (00:15:40) zoom in 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom in 78.7979 134.2624
+\i (00:15:40) trapsize 2391
+\i (00:15:40) zoom in 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom in 78.7979 134.2624
+\i (00:15:40) trapsize 1195
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7980 134.2624
+\i (00:15:40) trapsize 2391
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7979 134.2624
+\i (00:15:40) trapsize 4781
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7980 134.2624
+\i (00:15:40) trapsize 9563
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7979 134.2624
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:40) zoom out 1 
+\i (00:15:40) setwindow pcb
+\i (00:15:40) zoom out 78.7978 134.2623
+\i (00:15:40) trapsize 19126
+\i (00:15:41) zoom out 1 
+\i (00:15:41) setwindow pcb
+\i (00:15:41) zoom out 78.7978 134.2623
+\i (00:15:41) trapsize 19126
+\i (00:15:41) zoom out 1 
+\i (00:15:41) setwindow pcb
+\i (00:15:41) zoom out 78.7978 134.2623
+\i (00:15:41) trapsize 19126
+\i (00:15:41) zoom out 1 
+\i (00:15:41) setwindow pcb
+\i (00:15:41) zoom out 78.7978 134.2623
+\i (00:15:41) trapsize 19126
+\i (00:15:48) trapsize 10214
+\i (00:15:52) trapsize 19126
+\i (00:16:03) pick 0 0 
+\t (00:16:03) last pick:  0.0000  0.0000
+\i (00:16:04) pick 0 0 
+\t (00:16:04) last pick:  0.0000  0.0000
+\i (00:16:13) pick 0 0 
+\t (00:16:13) last pick:  0.0000  0.0000
+\i (00:16:14) pick 0 0 
+\t (00:16:14) last pick:  0.0000  0.0000
+\i (00:16:14) pick 0 0 
+\t (00:16:14) last pick:  0.0000  0.0000
+\i (00:16:14) pick 0 0 
+\t (00:16:14) last pick:  0.0000  0.0000
+\i (00:16:14) pick 0 0 
+\t (00:16:14) last pick:  0.0000  0.0000
+\i (00:16:20) board outline 
+\i (00:16:22) setwindow form.fpbdoutline
+\i (00:16:22) FORM fpbdoutline fpboplacerect YES 
+\i (00:16:45) FORM fpbdoutline fpboplacewdt '100 MM' 
+\i (00:16:54) FORM fpbdoutline fpboplacehgt 100MM 
+\i (00:16:54) FORM fpbdoutline done  
+\i (00:16:54) setwindow pcb
+\i (00:16:54) generaledit 
+\i (00:17:12) pick 0 0 
+\t (00:17:12) last pick:  0.0000  0.0000
+\i (00:17:14) pick grid 12.2404 105.5738
+\t (00:17:14) last pick:  12.0000  105.5000
+\i (00:17:14) pick grid dbl 12.2404 105.5738
+\t (00:17:14) last pick:  12.0000  105.5000
+\i (00:17:15) pick grid 3.8251 128.9071
+\t (00:17:15) last pick:  4.0000  129.0000
+\i (00:17:20) pick 0,0 
+\t (00:17:20) last pick:  0.0000  0.0000
+\i (00:17:22) pick 0,0 
+\t (00:17:22) last pick:  0.0000  0.0000
+\i (00:17:23) pick 0,0 
+\t (00:17:23) last pick:  0.0000  0.0000
+\i (00:17:23) pick 0,0 
+\t (00:17:23) last pick:  0.0000  0.0000
+\i (00:17:23) pick 0,0 
+\t (00:17:23) last pick:  0.0000  0.0000
+\i (00:17:23) pick 0,0 
+\t (00:17:23) last pick:  0.0000  0.0000
+\i (00:17:24) pick grid -45.1366 35.1913
+\t (00:17:24) last pick:  -45.0000  35.0000
+\i (00:17:25) pick grid -62.3497 28.3060
+\t (00:17:25) last pick:  -62.5000  28.5000
+\i (00:17:25) pick grid -20.6557 28.3060
+\t (00:17:25) last pick:  -20.5000  28.5000
+\i (00:17:26) pick 0,0 
+\t (00:17:26) last pick:  0.0000  0.0000
+\i (00:17:26) pick 0,0 
+\t (00:17:26) last pick:  0.0000  0.0000
+\i (00:17:26) pick 0,0 
+\t (00:17:26) last pick:  0.0000  0.0000
+\i (00:17:26) pick 0,0 
+\t (00:17:26) last pick:  0.0000  0.0000
+\i (00:17:28) drag_start grid 205.4098 122.4044
+\i (00:17:28) drag_stop 158.7432 122.0219
+\i (00:17:28) pick grid 74.9727 122.0219
+\t (00:17:28) last pick:  75.0000  122.0000
+\i (00:17:29) drag_start grid 30.6011 141.1475
+\i (00:17:29) drag_stop 145.7377 92.9508
+\i (00:17:30) pick grid 180.1639 89.5082
+\t (00:17:30) last pick:  180.0000  89.5000
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 136.5574 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 136.5574 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 136.5574 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 136.5574 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 136.5574 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 133.4973 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 133.1148 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom out 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom out 133.1148 104.8087
+\i (00:17:30) trapsize 19126
+\i (00:17:30) zoom in 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom in 132.7322 105.5738
+\i (00:17:30) trapsize 9563
+\i (00:17:30) zoom in 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom in 132.7322 105.5738
+\i (00:17:30) trapsize 4781
+\i (00:17:30) zoom in 1 
+\i (00:17:30) setwindow pcb
+\i (00:17:30) zoom in 132.7323 105.5738
+\i (00:17:30) trapsize 2391
+\i (00:17:31) zoom in 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom in 132.7323 105.5738
+\i (00:17:31) trapsize 1195
+\i (00:17:31) zoom in 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom in 132.7324 105.5739
+\i (00:17:31) trapsize 598
+\i (00:17:31) zoom in 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom in 132.7324 105.5739
+\i (00:17:31) trapsize 299
+\i (00:17:31) zoom in 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom in 132.7324 105.5739
+\i (00:17:31) trapsize 149
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7324 105.5739
+\i (00:17:31) trapsize 299
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7325 105.5739
+\i (00:17:31) trapsize 598
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7324 105.5738
+\i (00:17:31) trapsize 1195
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7324 105.5739
+\i (00:17:31) trapsize 2391
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7325 105.5739
+\i (00:17:31) trapsize 4781
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7326 105.5740
+\i (00:17:31) trapsize 9563
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7326 105.5739
+\i (00:17:31) trapsize 19126
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7322 105.5738
+\i (00:17:31) trapsize 19126
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7322 105.5738
+\i (00:17:31) trapsize 19126
+\i (00:17:31) zoom out 1 
+\i (00:17:31) setwindow pcb
+\i (00:17:31) zoom out 132.7322 105.5738
+\i (00:17:31) trapsize 19126
+\i (00:17:32) zoom out 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom out 132.7322 105.5738
+\i (00:17:32) trapsize 19126
+\i (00:17:32) zoom out 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom out 132.7322 105.5738
+\i (00:17:32) trapsize 19126
+\i (00:17:32) zoom out 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom out 132.7322 105.5738
+\i (00:17:32) trapsize 19126
+\i (00:17:32) zoom out 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom out 132.7322 105.5738
+\i (00:17:32) trapsize 19126
+\i (00:17:32) zoom in 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom in 132.7322 105.5738
+\i (00:17:32) trapsize 9563
+\i (00:17:32) zoom in 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom in 132.7322 105.5738
+\i (00:17:32) trapsize 4781
+\i (00:17:32) zoom in 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom in 132.7323 105.5738
+\i (00:17:32) trapsize 2391
+\i (00:17:32) zoom in 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom in 132.7323 105.5738
+\i (00:17:32) trapsize 1195
+\i (00:17:32) zoom out 1 
+\i (00:17:32) setwindow pcb
+\i (00:17:32) zoom out 132.7324 105.5739
+\i (00:17:32) trapsize 2391
+\i (00:17:33) zoom out 1 
+\i (00:17:33) setwindow pcb
+\i (00:17:33) zoom out 132.7323 105.5738
+\i (00:17:33) trapsize 4781
+\i (00:17:33) zoom out 1 
+\i (00:17:33) setwindow pcb
+\i (00:17:33) zoom out 132.7324 105.5738
+\i (00:17:33) trapsize 9563
+\i (00:17:33) zoom out 1 
+\i (00:17:33) setwindow pcb
+\i (00:17:33) zoom out 132.7323 105.5739
+\i (00:17:33) trapsize 19126
+\i (00:17:34) zoom out 1 
+\i (00:17:34) setwindow pcb
+\i (00:17:34) zoom out 132.7322 105.5738
+\i (00:17:34) trapsize 19126
+\i (00:17:39) trapsize 19022
+\i (00:17:39) trapsize 17413
+\i (00:17:40) trapsize 16800
+\i (00:17:40) trapsize 16588
+\i (00:17:56) pick 0 0 
+\t (00:17:56) last pick:  0.0000  0.0000
+\i (00:17:58) pick 0 0 
+\t (00:17:58) last pick:  0.0000  0.0000
+\i (00:17:58) pick 0 0 
+\t (00:17:58) last pick:  0.0000  0.0000
+\i (00:17:58) pick 0 0 
+\t (00:17:58) last pick:  0.0000  0.0000
+\i (00:17:59) pick 0 0 
+\t (00:17:59) last pick:  0.0000  0.0000
+\i (00:19:29) xrefdes U1 
+\t (00:19:29) Can not select unplaced component U1.
+\t (00:19:29) Can not select unplaced component U1.
+\i (00:19:29) xrefdes U1 
+\t (00:19:29) Can not select unplaced component U1.
+\t (00:19:29) Can not select unplaced component U1.
+\i (00:19:29) xrefdes C1 
+\t (00:19:29) Can not select unplaced component C1.
+\t (00:19:29) Can not select unplaced component C1.
+\i (00:19:29) xrefdes D1 
+\t (00:19:29) Can not select unplaced component D1.
+\t (00:19:29) Can not select unplaced component D1.
+\i (00:19:29) xrefdes R2 
+\t (00:19:29) Can not select unplaced component R2.
+\t (00:19:29) Can not select unplaced component R2.
+\i (00:19:29) xrefdes R1 
+\t (00:19:29) Can not select unplaced component R1.
+\t (00:19:29) Can not select unplaced component R1.
+\i (00:19:29) xrefdes U2 
+\t (00:19:29) Can not select unplaced component U2.
+\t (00:19:29) Can not select unplaced component U2.
+\i (00:19:29) xrefdes D2 
+\t (00:19:29) Can not select unplaced component D2.
+\t (00:19:29) Can not select unplaced component D2.
+\i (00:19:29) xrefdes R3 
+\t (00:19:29) Can not select unplaced component R3.
+\t (00:19:29) Can not select unplaced component R3.
+\i (00:19:29) xrefdes D3 
+\t (00:19:29) Can not select unplaced component D3.
+\t (00:19:29) Can not select unplaced component D3.
+\i (00:19:29) xrefdes R4 
+\t (00:19:29) Can not select unplaced component R4.
+\t (00:19:29) Can not select unplaced component R4.
+\i (00:19:29) xrefdes D4 
+\t (00:19:29) Can not select unplaced component D4.
+\t (00:19:29) Can not select unplaced component D4.
+\i (00:19:29) xrefdes R5 
+\t (00:19:29) Can not select unplaced component R5.
+\t (00:19:29) Can not select unplaced component R5.
+\i (00:19:29) xrefdes D5 
+\t (00:19:29) Can not select unplaced component D5.
+\t (00:19:29) Can not select unplaced component D5.
+\i (00:19:29) xrefdes R6 
+\t (00:19:29) Can not select unplaced component R6.
+\t (00:19:29) Can not select unplaced component R6.
+\i (00:19:29) xrefdes D6 
+\t (00:19:29) Can not select unplaced component D6.
+\t (00:19:29) Can not select unplaced component D6.
+\i (00:19:29) xrefdes R7 
+\t (00:19:29) Can not select unplaced component R7.
+\t (00:19:29) Can not select unplaced component R7.
+\i (00:19:29) xrefdes D7 
+\t (00:19:29) Can not select unplaced component D7.
+\t (00:19:29) Can not select unplaced component D7.
+\i (00:19:29) xrefdes R8 
+\t (00:19:29) Can not select unplaced component R8.
+\t (00:19:29) Can not select unplaced component R8.
+\i (00:19:29) xrefdes D8 
+\t (00:19:29) Can not select unplaced component D8.
+\t (00:19:29) Can not select unplaced component D8.
+\i (00:19:29) xrefdes R9 
+\t (00:19:29) Can not select unplaced component R9.
+\t (00:19:29) Can not select unplaced component R9.
+\i (00:19:29) xrefdes D9 
+\t (00:19:29) Can not select unplaced component D9.
+\t (00:19:29) Can not select unplaced component D9.
+\i (00:19:29) xrefdes R10 
+\t (00:19:29) Can not select unplaced component R10.
+\t (00:19:29) Can not select unplaced component R10.
+\i (00:19:29) xrefdes D10 
+\t (00:19:29) Can not select unplaced component D10.
+\t (00:19:29) Can not select unplaced component D10.
+\i (00:19:29) xrefdes R11 
+\t (00:19:29) Can not select unplaced component R11.
+\t (00:19:29) Can not select unplaced component R11.
+\i (00:19:29) xrefdes D11 
+\t (00:19:29) Can not select unplaced component D11.
+\t (00:19:29) Can not select unplaced component D11.
+\i (00:19:29) xrefdes R12 
+\t (00:19:29) Can not select unplaced component R12.
+\t (00:19:29) Can not select unplaced component R12.
+\i (00:19:29) xNet N00871 
+\i (00:19:29) xNet Gnd 
+\i (00:19:29) xNet N01151 
+\i (00:19:29) xNet N01149 
+\i (00:19:29) xNet N01147 
+\i (00:19:29) xNet N01145 
+\i (00:19:29) xNet N01143 
+\i (00:19:29) xNet N01141 
+\i (00:19:29) xNet N01139 
+\i (00:19:29) xNet N01137 
+\i (00:19:29) xNet N01155 
+\i (00:19:29) xNet N01153 
+\i (00:19:29) xNet N01181 
+\i (00:19:29) xNet N01185 
+\i (00:19:29) xNet N01245 
+\i (00:19:29) xNet N01534 
+\i (00:19:29) xNet N01545 
+\i (00:19:29) xNet N01538 
+\i (00:19:29) xNet N01566 
+\i (00:19:29) xNet N01559 
+\i (00:19:29) xNet N01552 
+\i (00:19:29) xNet N01580 
+\i (00:19:29) xNet N01573 
+\i (00:19:29) xNet N01594 
+\i (00:19:29) xNet N01587 
+\i (00:19:29) xname_flush 
+\i (00:23:02) xrefdes U1 
+\t (00:23:02) Can not select unplaced component U1.
+\t (00:23:02) Can not select unplaced component U1.
+\i (00:23:02) xrefdes U1 
+\t (00:23:02) Can not select unplaced component U1.
+\t (00:23:02) Can not select unplaced component U1.
+\i (00:23:02) xrefdes C1 
+\t (00:23:02) Can not select unplaced component C1.
+\t (00:23:02) Can not select unplaced component C1.
+\i (00:23:02) xrefdes D1 
+\t (00:23:02) Can not select unplaced component D1.
+\t (00:23:02) Can not select unplaced component D1.
+\i (00:23:02) xrefdes R2 
+\t (00:23:02) Can not select unplaced component R2.
+\t (00:23:02) Can not select unplaced component R2.
+\i (00:23:02) xrefdes R1 
+\t (00:23:02) Can not select unplaced component R1.
+\t (00:23:02) Can not select unplaced component R1.
+\i (00:23:02) xrefdes U2 
+\t (00:23:02) Can not select unplaced component U2.
+\t (00:23:02) Can not select unplaced component U2.
+\i (00:23:02) xrefdes D2 
+\t (00:23:02) Can not select unplaced component D2.
+\t (00:23:02) Can not select unplaced component D2.
+\i (00:23:02) xrefdes R3 
+\t (00:23:02) Can not select unplaced component R3.
+\t (00:23:02) Can not select unplaced component R3.
+\i (00:23:02) xrefdes D3 
+\t (00:23:02) Can not select unplaced component D3.
+\t (00:23:02) Can not select unplaced component D3.
+\i (00:23:02) xrefdes R4 
+\t (00:23:02) Can not select unplaced component R4.
+\t (00:23:02) Can not select unplaced component R4.
+\i (00:23:02) xrefdes D4 
+\t (00:23:02) Can not select unplaced component D4.
+\t (00:23:02) Can not select unplaced component D4.
+\i (00:23:02) xrefdes R5 
+\t (00:23:02) Can not select unplaced component R5.
+\t (00:23:02) Can not select unplaced component R5.
+\i (00:23:02) xrefdes D5 
+\t (00:23:02) Can not select unplaced component D5.
+\t (00:23:02) Can not select unplaced component D5.
+\i (00:23:02) xrefdes R6 
+\t (00:23:02) Can not select unplaced component R6.
+\t (00:23:02) Can not select unplaced component R6.
+\i (00:23:02) xrefdes D6 
+\t (00:23:02) Can not select unplaced component D6.
+\t (00:23:02) Can not select unplaced component D6.
+\i (00:23:02) xrefdes R7 
+\t (00:23:02) Can not select unplaced component R7.
+\t (00:23:02) Can not select unplaced component R7.
+\i (00:23:02) xrefdes D7 
+\t (00:23:02) Can not select unplaced component D7.
+\t (00:23:02) Can not select unplaced component D7.
+\i (00:23:02) xrefdes R8 
+\t (00:23:02) Can not select unplaced component R8.
+\t (00:23:02) Can not select unplaced component R8.
+\i (00:23:02) xrefdes D8 
+\t (00:23:02) Can not select unplaced component D8.
+\t (00:23:02) Can not select unplaced component D8.
+\i (00:23:02) xrefdes R9 
+\t (00:23:02) Can not select unplaced component R9.
+\t (00:23:02) Can not select unplaced component R9.
+\i (00:23:02) xrefdes D9 
+\t (00:23:02) Can not select unplaced component D9.
+\t (00:23:02) Can not select unplaced component D9.
+\i (00:23:02) xrefdes R10 
+\t (00:23:02) Can not select unplaced component R10.
+\t (00:23:02) Can not select unplaced component R10.
+\i (00:23:02) xrefdes D10 
+\t (00:23:02) Can not select unplaced component D10.
+\t (00:23:02) Can not select unplaced component D10.
+\i (00:23:02) xrefdes R11 
+\t (00:23:02) Can not select unplaced component R11.
+\t (00:23:02) Can not select unplaced component R11.
+\i (00:23:02) xrefdes D11 
+\t (00:23:02) Can not select unplaced component D11.
+\t (00:23:02) Can not select unplaced component D11.
+\i (00:23:02) xrefdes R12 
+\t (00:23:02) Can not select unplaced component R12.
+\t (00:23:02) Can not select unplaced component R12.
+\i (00:23:02) xname_flush 
+\i (00:23:34) xrefdes U1 
+\t (00:23:34) Can not select unplaced component U1.
+\t (00:23:34) Can not select unplaced component U1.
+\i (00:23:34) xrefdes U1 
+\t (00:23:34) Can not select unplaced component U1.
+\t (00:23:34) Can not select unplaced component U1.
+\i (00:23:34) xrefdes C1 
+\t (00:23:34) Can not select unplaced component C1.
+\t (00:23:34) Can not select unplaced component C1.
+\i (00:23:34) xrefdes D1 
+\t (00:23:34) Can not select unplaced component D1.
+\t (00:23:34) Can not select unplaced component D1.
+\i (00:23:34) xrefdes R2 
+\t (00:23:34) Can not select unplaced component R2.
+\t (00:23:34) Can not select unplaced component R2.
+\i (00:23:34) xrefdes R1 
+\t (00:23:34) Can not select unplaced component R1.
+\t (00:23:34) Can not select unplaced component R1.
+\i (00:23:34) xrefdes U2 
+\t (00:23:34) Can not select unplaced component U2.
+\t (00:23:34) Can not select unplaced component U2.
+\i (00:23:34) xrefdes D2 
+\t (00:23:34) Can not select unplaced component D2.
+\t (00:23:34) Can not select unplaced component D2.
+\i (00:23:34) xrefdes R3 
+\t (00:23:34) Can not select unplaced component R3.
+\t (00:23:34) Can not select unplaced component R3.
+\i (00:23:34) xrefdes D3 
+\t (00:23:34) Can not select unplaced component D3.
+\t (00:23:34) Can not select unplaced component D3.
+\i (00:23:34) xrefdes R4 
+\t (00:23:34) Can not select unplaced component R4.
+\t (00:23:34) Can not select unplaced component R4.
+\i (00:23:34) xrefdes D4 
+\t (00:23:34) Can not select unplaced component D4.
+\t (00:23:34) Can not select unplaced component D4.
+\i (00:23:34) xrefdes R5 
+\t (00:23:34) Can not select unplaced component R5.
+\t (00:23:34) Can not select unplaced component R5.
+\i (00:23:34) xrefdes D5 
+\t (00:23:34) Can not select unplaced component D5.
+\t (00:23:34) Can not select unplaced component D5.
+\i (00:23:34) xrefdes R6 
+\t (00:23:34) Can not select unplaced component R6.
+\t (00:23:34) Can not select unplaced component R6.
+\i (00:23:34) xrefdes D6 
+\t (00:23:34) Can not select unplaced component D6.
+\t (00:23:34) Can not select unplaced component D6.
+\i (00:23:34) xrefdes R7 
+\t (00:23:34) Can not select unplaced component R7.
+\t (00:23:34) Can not select unplaced component R7.
+\i (00:23:34) xrefdes D7 
+\t (00:23:34) Can not select unplaced component D7.
+\t (00:23:34) Can not select unplaced component D7.
+\i (00:23:34) xrefdes R8 
+\t (00:23:34) Can not select unplaced component R8.
+\t (00:23:34) Can not select unplaced component R8.
+\i (00:23:34) xrefdes D8 
+\t (00:23:34) Can not select unplaced component D8.
+\t (00:23:34) Can not select unplaced component D8.
+\i (00:23:34) xrefdes R9 
+\t (00:23:34) Can not select unplaced component R9.
+\t (00:23:34) Can not select unplaced component R9.
+\i (00:23:34) xrefdes D9 
+\t (00:23:34) Can not select unplaced component D9.
+\t (00:23:34) Can not select unplaced component D9.
+\i (00:23:34) xrefdes R10 
+\t (00:23:34) Can not select unplaced component R10.
+\t (00:23:34) Can not select unplaced component R10.
+\i (00:23:34) xrefdes D10 
+\t (00:23:34) Can not select unplaced component D10.
+\t (00:23:34) Can not select unplaced component D10.
+\i (00:23:34) xrefdes R11 
+\t (00:23:34) Can not select unplaced component R11.
+\t (00:23:34) Can not select unplaced component R11.
+\i (00:23:34) xrefdes D11 
+\t (00:23:34) Can not select unplaced component D11.
+\t (00:23:34) Can not select unplaced component D11.
+\i (00:23:34) xrefdes R12 
+\t (00:23:34) Can not select unplaced component R12.
+\t (00:23:34) Can not select unplaced component R12.
+\i (00:23:34) xNet N00871 
+\i (00:23:34) xNet Gnd 
+\i (00:23:34) xNet N01151 
+\i (00:23:34) xNet N01149 
+\i (00:23:34) xNet N01147 
+\i (00:23:34) xNet N01145 
+\i (00:23:34) xNet N01143 
+\i (00:23:34) xNet N01141 
+\i (00:23:34) xNet N01139 
+\i (00:23:34) xNet N01137 
+\i (00:23:34) xNet N01155 
+\i (00:23:34) xNet N01153 
+\i (00:23:34) xNet N01181 
+\i (00:23:34) xNet N01185 
+\i (00:23:34) xNet N01245 
+\i (00:23:34) xNet N01534 
+\i (00:23:34) xNet N01545 
+\i (00:23:34) xNet N01538 
+\i (00:23:34) xNet N01566 
+\i (00:23:34) xNet N01559 
+\i (00:23:34) xNet N01552 
+\i (00:23:34) xNet N01580 
+\i (00:23:34) xNet N01573 
+\i (00:23:34) xNet N01594 
+\i (00:23:34) xNet N01587 
+\i (00:23:34) xname_flush 
+\i (00:23:41) xname_flush 
+\i (00:37:35) exit 
+\e (00:37:35) Do you want to save the changes you made to DECADECOUNTER.brd?
+\i (00:37:37) fillin no 
+\t (00:37:38)     Journal end - Tue Oct 20 14:59:51 2020

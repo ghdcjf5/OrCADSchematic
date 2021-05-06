@@ -1,0 +1,471 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Feb-08-2021 at 11:39:27 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SEQUENTIALTIMER';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_CAP196_4.7U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS195@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins195@discrete.\c.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins195@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_CAPCK05_0.01U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS306@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins306@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins306@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAPCK05_0.047U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS236@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins236@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins236@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CAPCK05_0.01U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS252@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins252@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins252@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_CAPCK05_0.01U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS220@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins220@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins220@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_CAPCK05_0.047U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS290@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins290@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins290@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_CAP196_2.2U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS265@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins265@discrete.\c.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins265@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_CAPCK05_0.01U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS306@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins306@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins306@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_CAPCK05_0.047U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS290@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins290@discrete.\cap np.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins290@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_CAP196_2.2U':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS265@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins265@discrete.\c.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins265@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS530@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins530@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins530@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS986@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins986@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins986@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS240@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins240@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins240@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS224@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins224@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins224@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS240@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins240@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins240@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS224@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins224@discrete.\led.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins224@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS346@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins346@connector.\con2.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins346@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'TR_2_IS_N_A_0_SOT23_TR_2_IS_N_A':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS279@SEQUENTIALTIMER.TR_2_IS_N_A_0.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins279@sequentialtimer.\tr_2_is_n_a_0.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins279@sequentialtimer.\tr_2_is_n_a_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ Q2 'TR_2_IS_N_A_1_SOT23_TR_2_IS_N_A':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS308@SEQUENTIALTIMER.TR_2_IS_N_A_1.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins308@sequentialtimer.\tr_2_is_n_a_1.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins308@sequentialtimer.\tr_2_is_n_a_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ Q3 '2SC1130_0_SOT23_2SC1130':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS3858@SEQUENTIALTIMER.2SC1130_0.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins3858@sequentialtimer.\2sc1130_0.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins3858@sequentialtimer.\2sc1130_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 '2SC1130_0_SOT23_2SC1130':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS3858@SEQUENTIALTIMER.2SC1130_0.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins3858@sequentialtimer.\2sc1130_0.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins3858@sequentialtimer.\2sc1130_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS90@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins90@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins90@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS199@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins199@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins199@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RES400_3.3K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS183@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins183@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins183@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES400_100':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS167@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins167@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins167@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RES400_470K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS151@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins151@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins151@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS199@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins199@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins199@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RES400_3.3K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS183@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins183@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins183@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RES400_100':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS167@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins167@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins167@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS122@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins122@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins122@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS170@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins170@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins170@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS58@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins58@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins58@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_1M':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS74@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins74@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins74@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_100':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS106@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins106@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins106@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_100':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS154@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins154@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins154@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES400_470K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS138@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins138@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins138@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES400_470K':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS151@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins151@discrete.\r.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins151@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555_1_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS383@SEQUENTIALTIMER.NE555_1.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins383@sequentialtimer.\ne555_1.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins383@sequentialtimer.\ne555_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'NE555_2_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):INS580@SEQUENTIALTIMER.NE555_2.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):ins580@sequentialtimer.\ne555_2.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_ins580@sequentialtimer.\ne555_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'NE555_3_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS581@SEQUENTIALTIMER.NE555_3.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins581@sequentialtimer.\ne555_3.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins581@sequentialtimer.\ne555_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 '74LS04_SOIC14_74LS04':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS2466@GATE.74LS04.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins2466@gate.\74ls04.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins2466@gate.\74ls04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS2667@GATE.74LS04.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins2667@gate.\74ls04.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins2667@gate.\74ls04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+SECTION_NUMBER 3
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS2466@GATE.74LS04.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins2466@gate.\74ls04.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins2466@gate.\74ls04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='C';
+
+SECTION_NUMBER 4
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS2667@GATE.74LS04.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins2667@gate.\74ls04.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins2667@gate.\74ls04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='D';
+
+PART_NAME
+ U5 'NE555_3_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS581@SEQUENTIALTIMER.NE555_3.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins581@sequentialtimer.\ne555_3.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins581@sequentialtimer.\ne555_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VR1 'RESISTOR VAR_RESADJ_1M':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV1@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS333@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv1@sequentialtimer.monostablemultivibrator(sch_1):ins333@discrete.\resistor var.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv1@sequentialtimer.monostablemultivibrator(sch_1):page2_ins333@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VR2 'RESISTOR VAR_RESADJ_1M':;
+
+SECTION_NUMBER 1
+ '@SEQUENTIALTIMER.MAIN(SCH_1):MV2@SEQUENTIALTIMER.MONOSTABLEMULTIVIBRATOR(SCH_1):INS333@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@sequentialtimer.main(sch_1):mv2@sequentialtimer.monostablemultivibrator(sch_1):ins333@discrete.\resistor var.normal\(chips)',
+ P_PATH='@sequentialtimer.main(sch_1):page1_mv2@sequentialtimer.monostablemultivibrator(sch_1):page3_ins333@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

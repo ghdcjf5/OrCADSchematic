@@ -1,0 +1,21 @@
+\t (00:00:42) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:42)     Journal start - Tue Feb 23 15:27:20 2021
+\t (00:00:42)         Host=PROCESSOR21 User=PROCESSOR Pid=7816 CPUs=8
+\t (00:00:42) 
+\d (00:00:42) Database opened: C:/orcadData/allegro/EXAMDCCIRCUIT.brd
+\i (00:00:43) generaledit 
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 46.2609 27.1021
+\i (00:00:44) trapsize 7694
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 46.2609 27.1021
+\i (00:00:44) trapsize 3847
+\i (00:01:21) open 
+\i (00:01:53) fillin "C:\orcadData\sequentialTimer\allegro\SEQUENTIALTIMER.brd"
+\i (00:01:53) cd "C:\orcadData\sequentialTimer\allegro"
+\t (00:01:53) Opening existing design...
+\t (00:01:53) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:01:53) trapsize 15389
+\t (00:01:53)     Journal end - Tue Feb 23 15:28:31 2021

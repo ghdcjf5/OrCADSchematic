@@ -1,0 +1,58 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Mon Feb 08 14:49:55 2021
+# 
+# Allegro PCB Router v16-6-111 made 2012/09/05 at 23:00:56
+# Running on: processor21, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/ORCADDATA/SEQUENTIALTIMER/allegro\SEQUENTIALTIMER.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/ORCADDATA/SEQUENTIALTIMER/allegro/specctra.did
+# Current time = Mon Feb 08 14:49:56 2021
+# PCB C:/ORCADDATA/SEQUENTIALTIMER/allegro
+# Master Unit set up as: MM 100000
+# PCB Limits xlo=-72.0000 ylo=-72.0000 xhi=229.0000 yhi=142.0000
+# Total 37 Images Consolidated.
+# Via VIA z=1, 2 xlo= -0.3048 ylo= -0.3048 xhi=  0.3048 yhi=  0.3048
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 102, Vias Processed 20
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 47, Images Processed 53, Padstacks Processed 6
+# Nets Processed 32, Net Terminals 146
+# PCB Area=62370.000  EIC=9  Area/EIC=6930.000  SMDs=9
+# Total Pin Count: 133
+# Signal Connections Created 27
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.5000
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.5000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/SEQUENTIALTIMER/allegro\SEQUENTIALTIMER.dsn
+# Nets 32 Connections 94 Unroutes 27
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 20, at vias 5 Total Vias 20
+# Percent Connected   54.26
+# Manhattan Length 2015.4099 Horizontal 1220.7370 Vertical 794.6729
+# Routed Length 1081.0473 Horizontal 630.5903 Vertical 513.5105
+# Ratio Actual / Manhattan   0.5364
+# Unconnected Length 962.9351 Horizontal 549.6020 Vertical 413.3331
+# Total Conflicts: 29 (Cross: 0, Clear: 29, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/ORCADDATA/SEQUENTIALTIMER/allegro\SEQUENTIALTIMER_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <quit

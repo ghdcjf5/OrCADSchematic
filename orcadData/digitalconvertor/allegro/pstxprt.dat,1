@@ -1,0 +1,337 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Feb-05-2021 at 11:05:31 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DIGITALCONVERTOR';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CAPCK05_0.01U':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS299@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins299@discrete.\cap np.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins299@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAP196_1U':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS274@DISCRETE.C.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins274@discrete.\c.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins274@discrete.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2916@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2916@discrete.\led.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2916@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2932@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2932@discrete.\led.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2932@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2948@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2948@discrete.\led.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2948@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2964@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2964@discrete.\led.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2964@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS759@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins759@connector.\con2.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins759@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS51@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins51@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins51@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES400_20K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS156@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins156@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins156@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS220@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins220@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins220@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1859@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1859@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1859@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2811@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2811@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2811@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1875@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1875@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1875@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1891@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1891@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1891@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2843@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2843@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2843@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1907@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1907@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1907@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2859@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2859@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2859@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1923@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1923@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1923@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_20K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS108@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins108@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins108@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_RES400_330':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS2875@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins2875@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins2875@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR VAR_RESADJ_RESISTOR VA':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS247@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins247@discrete.\resistor var.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins247@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS172@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins172@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins172@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_20K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS124@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins124@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins124@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS188@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins188@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins188@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_1M':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS83@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins83@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins83@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES400_20K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS140@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins140@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins140@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS204@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins204@discrete.\r.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins204@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555_0_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS336@DIGITALCONVERTOR.NE555_0.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins336@digitalconvertor.\ne555_0.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins336@digitalconvertor.\ne555_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '4520_1_SOIC16_4520':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS391@DIGITALCONVERTOR.4520_1.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins391@digitalconvertor.\4520_1.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page1_ins391@digitalconvertor.\4520_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+PART_NAME
+ U3 'LM324_0_SOIC14_LM324':;
+
+SECTION_NUMBER 1
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS1954@DIGITALCONVERTOR.LM324_0.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins1954@digitalconvertor.\lm324_0.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins1954@digitalconvertor.\lm324_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS3531@DIGITALCONVERTOR.LM324_0.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins3531@digitalconvertor.\lm324_0.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins3531@digitalconvertor.\lm324_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U4 'LM324_0_SOIC14_LM324':;
+
+SECTION_NUMBER 2
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS3607@DIGITALCONVERTOR.LM324_0.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins3607@digitalconvertor.\lm324_0.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins3607@digitalconvertor.\lm324_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U5 'LM324_0_SOIC14_LM324':;
+
+SECTION_NUMBER 2
+ '@DIGITALCONVERTOR.SCHEMATIC1(SCH_1):INS3683@DIGITALCONVERTOR.LM324_0.NORMAL(CHIPS)':
+ C_PATH='@digitalconvertor.schematic1(sch_1):ins3683@digitalconvertor.\lm324_0.normal\(chips)',
+ P_PATH='@digitalconvertor.schematic1(sch_1):page2_ins3683@digitalconvertor.\lm324_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+END.

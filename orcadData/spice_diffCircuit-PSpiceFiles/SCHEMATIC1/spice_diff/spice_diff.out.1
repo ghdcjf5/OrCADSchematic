@@ -1,0 +1,68 @@
+
+**** 02/25/21 12:01:18 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "spice_diff.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SPICE_DIFFCIRCUIT
+X_U1A         N00440 N00433 $G_DPWR $G_DGND 7405 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00454 N00447 $D_HI $D_HI OUTPUT OUTPUT_BAR $G_DPWR $G_DGND 74107
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00433 N00429 $G_DPWR $G_DGND 7414 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N00429 N00454 $G_DPWR $G_DGND 7414 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4A         N00440 N00447 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+R_R1         N00429 N00531  750 TC=0,0 
+C_C1         N00531 N00454  400p  TC=0,0 
+U_DSTM1         STIM(1,1) $G_DPWR $G_DGND N00440 IO_STM IO_LEVEL=0 
++ 0 0
++ +1ms 5
+-------$
+ERROR(ORPSIM-16260): Invalid value
++REPEAT FOREVER
++ +1ms 0
++  +1ms 5
++ ENDREPEAT
+-----------$
+ERROR(ORPSIM-16249): Bad state value(s)
+U_DSTM2         STIM(1,1) $G_DPWR $G_DGND N00440 IO_STM IO_LEVEL=0 
++ 0 0
++ +.5uS 1
++REPEAT FOREVER
++ +.5uS 0
++  +.5uS 1
++ ENDREPEAT
+
+**** RESUMING spice_diff.cir ****
+.END
+

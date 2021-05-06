@@ -1,0 +1,263 @@
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "spice_ne555.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SPICE_MULTIVIBRATOR
+X_U1         0 N00317 N00592 N00126 N00284 N00317 N00774 N00126 555C
+V_V1         N00126 0 5
+C_C1         0 N00284  0.1u  TC=0,0 
+R_R1         N00317 N00774  2.4k TC=0,0 
+R_R2         N00774 N00126  2.4k TC=0,0 
+C_C2         0 N00317  0.01u  TC=0,0 
+R_R3         N00592 N01255  200 TC=0,0 
+R_R4         N01255 N01367  200 TC=0,0 
+R_R5         0 N01265  1k TC=0,0 
+C_C3         N01255 N01367  0.1u  TC=0,0 
+V_V2         0 N01542 10
+V_V3         0 N01535 -10
+X_U2         N01265 N01255 N01535 N01542 N01367 LF356/LT
+
+**** RESUMING spice_ne555.cir ****
+.END
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DIODE      X_U2.DM1        X_U2.DM2        X_U2.DM3        
+          IS   10.000000E-15    1.000000E-15  800.000000E-18  100.000000E-18 
+          BV                                   43.2                          
+          RS     .01                                                         
+
+
+               X_U2.DM4        
+          IS    1.000000E-09 
+
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNEMOD     X_U2.JM1        X_U2.JM2        
+               NJF             PJF             PJF             
+         VTO   -2.5            -1               -.997        
+        BETA    5.120000E-06  925.280000E-06  925.280000E-06 
+          IS                   31.500000E-12   28.500000E-12 
+
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PCHAN555   X_U1.NCHAN555   
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    -.2              .2          
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    1.000000E-12    1.000000E-12 
+        CGDO    1.000000E-12    1.000000E-12 
+        CGBO    1.000000E-12    1.000000E-12 
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+               X_U1.PCHAN555_OUT 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.2          
+          KP   20.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD  200.000000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO    1.000000E-12 
+        CGDO    1.000000E-12 
+        CGBO    1.000000E-12 
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00126)    5.0000 (N00284)    3.3323 (N00317)    5.0000 (N00592)     .0030     
+
+(N00774)    5.0000 (N01255)     .0030 (N01265)-65.23E-09 (N01367)     .0030     
+
+(N01535)   10.0000 (N01542)  -10.0000 (X_U1.1)     .0013 (X_U1.2)    1.6661     
+
+(X_U1.3)-1333.5000 (X_U1.4)    -.6000 (X_U1.5)    -.7003 (X_U1.6)  667.0800     
+
+(X_U1.7)    -.6000 (X_U1.8)    -.6998 (X_U1.9)     .0377 (X_U2.1)     .0030     
+
+(X_U2.8)-35.37E-06 (X_U1.10)     .1000                   (X_U1.11)     .1188    
+
+(X_U1.12)     .0377                   (X_U1.13)     .0332                       
+
+(X_U1.14)     .1000                   (X_U1.15)     .1188                       
+
+(X_U1.16)     .1188                   (X_U1.17)     .0377                       
+
+(X_U1.18)     .1361                   (X_U1.19) 3.043E-12                       
+
+(X_U1.20)     .1623                   (X_U1.21)     .1002                       
+
+(X_U1.22)     .0812                   (X_U1.23)     .0997                       
+
+(X_U1.24)     .1000                   (X_U1.25) 4.375E-12                       
+
+(X_U2.12)    -.4877                   (X_U2.13)    3.1582                       
+
+(X_U2.14)   -3.1522                   (X_U2.18) 58.79E-12                       
+
+(X_U2.20) 122.1E-21                   (X_U2.40)   -8.0000                       
+
+(X_U2.60)  -10.0000                   (X_U2.70)   10.0000                       
+
+(X_U2.80)   -7.7454                   (X_U2.90)   -7.7454                       
+
+(X_U1.VDD)     .2000                  (X_U2.102)     .0030                      
+
+(X_U2.103)-65.36E-09                  (X_U2.131)   10.0000                      
+
+(X_U2.141)  -10.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.916E-05
+    V_V2        -5.000E-03
+    V_V3         5.000E-03
+    X_U1.V_U6_V2  -5.729E-03
+    X_U1.V_U7_V2  -5.629E-03
+    X_U2.VCM2    4.800E-04
+    X_U2.VC      6.842E-12
+    X_U2.VE      6.848E-12
+
+    TOTAL POWER DISSIPATION   1.08E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/25/21 11:15:13 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_ne555"  [ C:\ORCADDATA\spice_multiVibrator-PSpiceFiles\SCHEMATIC1\spice_ne555.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .86
+

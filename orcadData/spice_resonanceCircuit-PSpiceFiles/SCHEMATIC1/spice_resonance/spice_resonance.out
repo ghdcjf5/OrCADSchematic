@@ -1,0 +1,94 @@
+
+**** 02/25/21 14:40:08 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_resonance"  [ C:\ORCADDATA\spice_resonanceCircuit-PSpiceFiles\SCHEMATIC1\spice_resonance.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "spice_resonance.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 1 50k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SPICE_RESONANCECIRCUIT
+R_R1         N00153 N00160  10 TC=0,0 
+L_L1         N00160 N00164  2m  
+C_C1         0 N00164  2u  TC=0,0 
+V_V2         N00153 0 DC 0Vdc AC 5Vac 
+V_V3         N01063 0 DC 0Vdc AC 5Vac 
+R_R2         N01095 N01063  1 TC=0,0 
+R_R3         0 N01063  1k TC=0,0 
+C_C2         0 N01095  2u  TC=0,0 
+L_L2         0 N01095  2m  
+
+**** RESUMING spice_resonance.cir ****
+.END
+
+**** 02/25/21 14:40:08 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_resonance"  [ C:\ORCADDATA\spice_resonanceCircuit-PSpiceFiles\SCHEMATIC1\spice_resonance.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00153)    0.0000 (N00160)    0.0000 (N00164)    0.0000 (N01063)    0.0000     
+
+(N01095)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         0.000E+00
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/25/21 14:40:08 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_resonance"  [ C:\ORCADDATA\spice_resonanceCircuit-PSpiceFiles\SCHEMATIC1\spice_resonance.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

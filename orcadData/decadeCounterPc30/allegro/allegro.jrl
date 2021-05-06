@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 16.5 S025 (v16-5-13BK) i86
+\t (00:00:00)     Journal start - Tue Oct 20 16:19:04 2020
+\t (00:00:00)         Host=PROCESS-130 User=PROCESS-000 Pid=1732 CPUs=8
+\t (00:00:00) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: C:/ORCADDATA/DECADECOUNTERPC30/allegro/DECADECOUNTERPC30.brd
+\i (00:00:04) trapsize 17268
+\i (00:00:04) trapsize 16442
+\i (00:00:04) trapsize 17350
+\i (00:00:04) trapsize 16832
+\i (00:00:05) trapsize 14038
+\i (00:00:05) trapsize 16467
+\i (00:00:06) generaledit 
+\i (00:00:07) place manual 
+\i (00:00:11) setwindow form.plc_manual
+\i (00:00:11) FORM plc_manual cancel  
+\i (00:00:11) setwindow pcb
+\i (00:00:11) generaledit 
+\i (00:00:12) exit 
+\t (00:00:13)     Journal end - Tue Oct 20 16:19:17 2020

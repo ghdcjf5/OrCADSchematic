@@ -1,0 +1,128 @@
+\t (05:48:12) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (05:48:12)     Journal start - Thu Feb 04 15:09:23 2021
+\t (05:48:12)         Host=PROCESSOR21 User=PROCESSOR Pid=7084 CPUs=8
+\t (05:48:12) 
+\d (05:48:12) Database opened: C:/SPB_Data/mylib/dcjack.dra
+\i (05:48:12) generaledit 
+\i (05:48:15) pick grid 0.174 -0.761
+\t (05:48:15) last pick:  0.000  -0.600
+\i (05:48:17) pick grid 5.779 -1.018
+\t (05:48:17) last pick:  6.000  -1.200
+\i (05:48:18) pick grid 5.406 -2.630
+\t (05:48:18) last pick:  5.500  -2.400
+\i (05:48:20) pick grid 6.527 -2.723
+\t (05:48:20) last pick:  6.500  -3.000
+\i (05:48:25) pick grid 5.429 -2.723
+\t (05:48:25) last pick:  5.500  -3.000
+\i (05:48:26) pick grid 6.527 -2.747
+\t (05:48:26) last pick:  6.500  -3.000
+\i (05:48:29) pick grid 1.575 -4.125
+\t (05:48:29) last pick:  1.500  -4.200
+\i (05:48:30) pick grid 1.528 -5.339
+\t (05:48:30) last pick:  1.500  -5.400
+\i (05:48:32) pick grid 1.435 -5.386
+\t (05:48:32) last pick:  1.500  -5.400
+\i (05:48:33) pick grid 1.552 -4.055
+\t (05:48:33) last pick:  1.500  -4.200
+\i (05:48:34) pick grid 1.622 -5.526
+\t (05:48:34) last pick:  1.500  -5.400
+\i (05:48:35) pick grid 2.112 -5.830
+\t (05:48:35) last pick:  2.000  -6.000
+\i (05:48:36) pick grid 5.919 -5.970
+\t (05:48:36) last pick:  6.000  -6.000
+\i (05:48:41) pick grid 5.476 5.615
+\t (05:48:41) last pick:  5.500  5.400
+\i (05:48:43) pick grid 6.550 5.545
+\t (05:48:43) last pick:  6.500  5.400
+\i (05:48:47) pick grid 6.130 0.733
+\t (05:48:47) last pick:  6.000  0.600
+\i (05:48:54) padeditdb 
+\i (05:48:55) setwindow form.mini
+\i (05:48:55) FORM mini padlist QUAD_LLB_PAD10 
+\i (05:48:55) FORMDBLCLK mini padlist QUAD_LLB_PAD10 
+\i (05:48:59) setwindow form.padedit
+\i (05:48:59) pse_exit
+\i (05:49:00) setwindow form.mini
+\i (05:49:00) FORM mini padlist QUAD_LLB_PAD100 
+\i (05:49:00) FORMDBLCLK mini padlist QUAD_LLB_PAD100 
+\i (05:49:03) setwindow form.padedit
+\i (05:49:03) FORM padedit layers  
+\i (05:49:05) FORM padedit parameters  
+\i (05:49:08) FORM padedit layers  
+\i (05:49:10) FORM padedit grid row soldermask_top 
+\i (05:49:13) FORM padedit width 4.5 
+\i (05:49:15) FORM padedit height 1.2 
+\i (05:49:15) FORM padedit grid row pastemask_top 
+\i (05:49:18) FORM padedit width 4.5 
+\i (05:49:20) FORM padedit height 1.2 
+\i (05:49:22) FORM padedit grid row top 
+\i (05:49:24) FORM padedit geometry_ant Null 
+\i (05:49:27) pse_update 
+\i (05:49:28) pse_check 
+\i (05:49:30) pse_update 
+\i (05:49:31) pse_exit
+\i (05:49:32) setwindow form.mini
+\i (05:49:32) FORM mini padlist QUAD_LLB_PAD30_1 
+\i (05:49:32) FORMDBLCLK mini padlist QUAD_LLB_PAD30_1 
+\i (05:49:34) setwindow form.padedit
+\i (05:49:34) pse_exit
+\i (05:49:35) setwindow pcb
+\i (05:49:35) pick grid 5.943 2.065
+\t (05:49:35) last pick:  6.000  1.800
+\i (05:49:36) pick grid 8.395 1.901
+\t (05:49:36) last pick:  8.500  1.800
+\i (05:49:37) pick grid 5.452 5.405
+\t (05:49:37) last pick:  5.500  5.400
+\i (05:49:38) pick grid 6.527 5.405
+\t (05:49:38) last pick:  6.500  5.400
+\i (05:49:39) pick grid 5.592 1.901
+\t (05:49:39) last pick:  5.500  1.800
+\i (05:49:40) setwindow form.mini
+\i (05:49:40) FORM mini padlist QUAD_LLB_PAD10 
+\i (05:49:40) FORMDBLCLK mini padlist QUAD_LLB_PAD10 
+\i (05:49:42) setwindow form.padedit
+\i (05:49:42) FORM padedit parameters  
+\i (05:49:44) FORM padedit layers  
+\i (05:49:45) pse_exit
+\i (05:49:45) setwindow form.mini
+\i (05:49:45) FORM mini padlist QUAD_LLB_PAD100 
+\i (05:49:45) FORMDBLCLK mini padlist QUAD_LLB_PAD100 
+\i (05:49:47) setwindow form.padedit
+\i (05:49:47) FORM padedit grid row top 
+\i (05:49:48) FORM padedit grid row soldermask_top 
+\i (05:49:48) FORM padedit grid row pastemask_top 
+\i (05:49:50) FORM padedit grid row top 
+\i (05:49:50) FORM padedit grid row soldermask_top 
+\i (05:49:51) FORM padedit crossbox YES 
+\i (05:49:52) FORM padedit grid row top 
+\i (05:49:53) FORM padedit parameters  
+\i (05:49:55) FORM padedit layers  
+\i (05:49:56) FORM padedit grid row soldermask_top 
+\i (05:49:56) FORM padedit grid row soldermask_bottom 
+\i (05:49:57) FORM padedit grid row pastemask_top 
+\i (05:49:57) pse_exit
+\i (05:50:00) setwindow pcb
+\i (05:50:00) pick grid 2.089 7.226
+\t (05:50:00) last pick:  2.000  7.200
+\i (05:50:01) pick grid -0.527 5.521
+\t (05:50:01) last pick:  -0.500  5.400
+\i (05:50:02) pick grid 0.454 5.428
+\t (05:50:02) last pick:  0.500  5.400
+\i (05:50:04) pick grid 7.648 2.368
+\t (05:50:04) last pick:  7.500  2.400
+\i (05:50:06) pick grid 7.624 -2.256
+\t (05:50:06) last pick:  7.500  -2.400
+\i (05:50:08) pick grid 7.718 2.275
+\t (05:50:08) last pick:  7.500  2.400
+\i (05:50:09) pick grid 7.718 2.275
+\t (05:50:09) last pick:  7.500  2.400
+\i (05:50:11) pick grid 7.601 -2.280
+\t (05:50:11) last pick:  7.500  -2.400
+\i (05:50:16) exit 
+\t (05:50:16) DRC Required please wait...
+\t (05:50:16) Performing DRC...
+\t (05:50:16) No DRC errors detected.
+\e (05:50:16) Do you want to save the changes you made to dcjack.dra?
+\i (05:50:18) fillin yes 
+\t (05:50:18) Symbol 'dcjack.psm' created.
+\t (05:50:18)     Journal end - Thu Feb 04 15:11:29 2021

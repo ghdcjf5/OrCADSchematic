@@ -1,0 +1,26 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : HEARINGDEVICE.brd                             )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Thu Jan 21 15:06:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_16.6/share/local/pcb/symbols
+	C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols
+
+
+All Symbols Found
+
+Total symbols placed:      19 out of 19
+
+

@@ -1,0 +1,436 @@
+\t (00:00:00) allegro 16.5 S025 (v16-5-13BK) i86
+\t (00:00:00)     Journal start - Mon Oct 26 16:21:16 2020
+\t (00:00:00)         Host=PROCESS-129 User=PROCESS-000 Pid=2872 CPUs=8
+\t (00:00:00) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd
+\i (00:00:04) trapsize 25074
+\i (00:00:04) trapsize 24011
+\i (00:00:04) trapsize 25260
+\i (00:00:05) trapsize 19451
+\i (00:00:05) trapsize 21359
+\i (00:00:06) generaledit 
+\i (00:00:27) place manual 
+\i (00:00:39) setwindow form.plc_manual
+\i (00:00:39) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:39) Placing C1 / CAP_CAP400_100U / CAP400 on Top.
+\i (00:00:39) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:41) FORM plc_manual done  
+\i (00:00:41) setwindow pcb
+\i (00:00:41) generaledit 
+\i (00:00:42) pick grid 7347.57 16104.85
+\t (00:00:42) last pick:  7300.00  16100.00
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 8543.69 15122.33
+\i (00:00:43) trapsize 10680
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 8073.79 15485.44
+\i (00:00:43) trapsize 5340
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 8073.79 15485.45
+\i (00:00:43) trapsize 2670
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 8132.53 15480.11
+\i (00:00:44) trapsize 5340
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 8185.93 15448.07
+\i (00:00:44) trapsize 10680
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 8271.38 15383.99
+\i (00:00:44) trapsize 21359
+\i (00:00:45) place manual 
+\i (00:00:47) setwindow form.plc_manual
+\i (00:00:47) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:47) Placing C1 / CAP_CAP400_100U / CAP400 on Top.
+\i (00:00:47) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:48) FORM plc_manual hide  
+\i (00:00:49) setwindow pcb
+\i (00:00:49) pick grid 6535.92 16361.16
+\t (00:00:49) last pick:  6500.00  16400.00
+\t (00:00:49) Placing D1 / LED_CAP196_LED / CAP196 on Top.
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 9013.59 14823.30
+\i (00:00:49) trapsize 10680
+\i (00:00:49) zoom in 1 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 9013.60 14823.30
+\i (00:00:49) trapsize 5340
+\i (00:00:50) roam x -96 
+\i (00:00:50) roam x -96
+\i (00:00:50) roam x -96 
+\i (00:00:50) roam x -96
+\i (00:00:51) roam x -96 
+\i (00:00:51) roam x -96
+\i (00:00:51) roam y -96 
+\i (00:00:51) roam y -96
+\i (00:00:51) roam y -96 
+\i (00:00:51) roam y -96
+\i (00:00:51) roam y 96 
+\i (00:00:51) roam y 96
+\i (00:00:52) roam y -96 
+\i (00:00:52) roam y -96
+\i (00:00:52) roam y -96 
+\i (00:00:52) roam y -96
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 6653.40 17226.21
+\i (00:00:52) trapsize 2670
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 6653.41 17226.21
+\i (00:00:52) trapsize 1335
+\i (00:00:52) roam y 96 
+\i (00:00:52) roam y 96
+\i (00:00:56) roam x 96 
+\i (00:00:56) roam x 96
+\i (00:02:05) pick grid 8452.93 17434.50
+\t (00:02:05) last pick:  8500.00  17400.00
+\t (00:02:05) Placing D2 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:08) pick grid 8140.55 17052.70
+\t (00:02:08) last pick:  8100.00  17100.00
+\t (00:02:08) Placing D3 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:09) pick grid 8095.16 16849.79
+\t (00:02:09) last pick:  8100.00  16800.00
+\t (00:02:09) Placing D4 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:09) pick grid 7569.19 16548.09
+\t (00:02:09) last pick:  7600.00  16500.00
+\t (00:02:09) Placing D5 / LED_CAP196_LED / CAP196 on Top.
+\i (00:02:10) pick grid 7854.87 16510.71
+\t (00:02:10) last pick:  7900.00  16500.00
+\t (00:02:10) Placing R1 / R_RES400_30K / RES400 on Top.
+\i (00:02:11) zoom out 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out 8063.13 16537.41
+\i (00:02:11) trapsize 2670
+\i (00:02:11) zoom out 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out 8063.12 16537.41
+\i (00:02:11) trapsize 5340
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in 7379.62 16473.33
+\i (00:02:11) trapsize 2670
+\i (00:02:13) pick grid 5836.41 17301.00
+\t (00:02:13) last pick:  5800.00  17300.00
+\t (00:02:13) Placing R2 / R_RES400_200 / RES400 on Top.
+\i (00:02:14) pick grid 6349.03 17413.14
+\t (00:02:14) last pick:  6300.00  17400.00
+\t (00:02:14) Placing R3 / R_RES400_200 / RES400 on Top.
+\i (00:02:14) pick grid 6760.20 17509.26
+\t (00:02:14) last pick:  6800.00  17500.00
+\t (00:02:14) Placing R4 / R_RES400_200 / RES400 on Top.
+\i (00:02:15) pick grid 7256.80 17658.77
+\t (00:02:15) last pick:  7300.00  17700.00
+\t (00:02:15) Placing R5 / R_RES400_200 / RES400 on Top.
+\i (00:02:15) pick grid 7678.65 17658.77
+\t (00:02:15) last pick:  7700.00  17700.00
+\t (00:02:15) Placing R6 / R_RES400_200 / RES400 on Top.
+\i (00:02:16) pick grid 4944.66 17114.11
+\t (00:02:16) last pick:  4900.00  17100.00
+\t (00:02:16) Placing R7 / R_RES400_200 / RES400 on Top.
+\i (00:02:17) pick grid 4501.45 17055.37
+\t (00:02:17) last pick:  4500.00  17100.00
+\t (00:02:17) Placing SW1 / SW SPST_1_JUMPER2_SW SPST / JUMPER2 on Top.
+\i (00:02:19) pick grid 5035.43 17957.80
+\t (00:02:19) last pick:  5000.00  18000.00
+\t (00:02:19) Placing U1 / 74HC14_DIP14_3_74HC14 / DIP14_3 on Top.
+\i (00:02:20) pick grid 4736.40 16676.24
+\t (00:02:20) last pick:  4700.00  16700.00
+\t (00:02:20) Placing U2 / 74HC14_1_DIP14_3_74HC14 / DIP14_3 on Top.
+\i (00:02:20) pick grid 5553.40 16500.03
+\t (00:02:20) last pick:  5600.00  16500.00
+\t (00:02:20) Placing U3 / 74HC93_8_DIP14_3_74HC93 / DIP14_3 on Top.
+\i (00:02:22) pick grid 7048.55 16168.96
+\t (00:02:22) last pick:  7000.00  16200.00
+\i (00:02:23) zoom out 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom out 4501.45 17012.65
+\i (00:02:23) trapsize 5340
+\i (00:02:35) trapsize 2523
+\i (00:02:39) trapsize 5340
+\i (00:02:44) zoom in 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom in 4982.04 18230.14
+\i (00:02:44) trapsize 2670
+\i (00:02:44) zoom out 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom out 5281.07 17963.15
+\i (00:02:44) trapsize 5340
+\i (00:02:46) zoom in 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom in 5473.31 16724.31
+\i (00:02:46) trapsize 2670
+\i (00:02:57) pick grid 4891.27 16446.64
+\t (00:02:57) last pick:  4900.00  16400.00
+\t (00:02:57) Moving U1 / 74HC14_DIP14_3_74HC14 / DIP14_3.
+\t (00:02:57) last pick:  4700.00  16700.00
+\i (00:02:58) pick grid 5553.41 19185.97
+\t (00:02:58) last pick:  5600.00  19200.00
+\i (00:03:04) pick grid 5820.40 16323.82
+\t (00:03:04) last pick:  5800.00  16300.00
+\t (00:03:04) Moving U2 / 74HC14_1_DIP14_3_74HC14 / DIP14_3.
+\t (00:03:04) last pick:  5600.00  16500.00
+\i (00:03:06) pick grid 6696.13 19244.71
+\t (00:03:06) last pick:  6700.00  19200.00
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 5975.26 17541.31
+\i (00:03:09) trapsize 1335
+\i (00:03:10) zoom out 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom out 5964.58 17471.89
+\i (00:03:10) trapsize 2670
+\i (00:03:11) pick grid 5825.75 17578.70
+\t (00:03:11) last pick:  5800.00  17600.00
+\t (00:03:11) Moving R1 / R_RES400_30K / RES400.
+\t (00:03:11) last pick:  5800.00  17300.00
+\i (00:03:13) pick grid 5799.05 19554.43
+\t (00:03:13) last pick:  5800.00  19600.00
+\i (00:03:14) pick grid 5815.07 19735.99
+\t (00:03:14) last pick:  5800.00  19700.00
+\t (00:03:14) Moving R1 / R_RES400_30K / RES400.
+\t (00:03:14) last pick:  5800.00  19600.00
+\i (00:03:18) pick grid 5905.85 19549.09
+\t (00:03:18) last pick:  5900.00  19500.00
+\i (00:03:20) zoom in 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom in 5126.23 17936.46
+\i (00:03:20) trapsize 1335
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out 5094.20 17928.46
+\i (00:03:21) trapsize 2670
+\i (00:03:22) pick grid 5088.85 18008.55
+\t (00:03:22) last pick:  5100.00  18000.00
+\t (00:03:22) Moving SW1 / SW SPST_1_JUMPER2_SW SPST / JUMPER2.
+\t (00:03:22) last pick:  5000.00  18000.00
+\i (00:03:24) pick grid 7742.75 18451.76
+\t (00:03:24) last pick:  7700.00  18500.00
+\i (00:03:28) pick grid 6349.05 17586.71
+\t (00:03:28) last pick:  6300.00  17600.00
+\t (00:03:28) Moving R2 / R_RES400_200 / RES400.
+\t (00:03:28) last pick:  6300.00  17400.00
+\i (00:03:29) pick grid 6359.73 17752.24
+\t (00:03:29) last pick:  6400.00  17800.00
+\i (00:03:31) pick grid 8495.67 17426.51
+\t (00:03:31) last pick:  8500.00  17400.00
+\t (00:03:31) Moving D1 / LED_CAP196_LED / CAP196.
+\t (00:03:31) last pick:  8500.00  17400.00
+\i (00:03:32) pick grid 6439.83 17373.11
+\t (00:03:32) last pick:  6400.00  17400.00
+\i (00:03:34) pick grid 7764.11 18499.82
+\t (00:03:34) last pick:  7800.00  18500.00
+\t (00:03:34) Moving SW1 / SW SPST_1_JUMPER2_SW SPST / JUMPER2.
+\t (00:03:34) last pick:  7700.00  18500.00
+\i (00:03:35) pick grid 6845.66 18158.07
+\t (00:03:35) last pick:  6800.00  18200.00
+\i (00:03:37) pick grid 6770.90 17725.54
+\t (00:03:37) last pick:  6800.00  17700.00
+\t (00:03:37) Moving R3 / R_RES400_200 / RES400.
+\t (00:03:37) last pick:  6800.00  17500.00
+\i (00:03:52) pick grid 8212.65 18344.96
+\t (00:03:52) last pick:  8200.00  18300.00
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 8004.40 17949.81
+\i (00:03:53) trapsize 5340
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 7673.33 16478.61
+\i (00:03:53) trapsize 2670
+\i (00:03:54) pick grid 7630.62 16542.69
+\t (00:03:54) last pick:  7600.00  16500.00
+\t (00:03:54) Moving D4 / LED_CAP196_LED / CAP196.
+\t (00:03:54) last pick:  7600.00  16500.00
+\i (00:03:57) pick grid 8212.66 17850.95
+\t (00:03:57) last pick:  8200.00  17900.00
+\i (00:03:57) pick grid 7716.06 17866.97
+\t (00:03:57) last pick:  7700.00  17900.00
+\t (00:03:57) Moving R5 / R_RES400_200 / RES400.
+\t (00:03:57) last pick:  7700.00  17700.00
+\i (00:03:59) pick grid 7587.90 18262.12
+\t (00:03:59) last pick:  7600.00  18300.00
+\i (00:04:00) pick grid 8143.24 17156.77
+\t (00:04:00) last pick:  8100.00  17200.00
+\t (00:04:00) Moving D2 / LED_CAP196_LED / CAP196.
+\t (00:04:00) last pick:  8100.00  17100.00
+\i (00:04:02) pick grid 7614.60 17850.95
+\t (00:04:02) last pick:  7600.00  17900.00
+\i (00:04:05) pick grid 6530.61 16612.11
+\t (00:04:05) last pick:  6500.00  16600.00
+\t (00:04:05) Moving C1 / CAP_CAP400_100U / CAP400.
+\t (00:04:05) last pick:  6500.00  16400.00
+\i (00:04:09) pick grid 4901.97 18454.35
+\t (00:04:09) last pick:  4900.00  18500.00
+\i (00:04:11) pick grid 4901.97 17316.97
+\t (00:04:11) last pick:  4900.00  17300.00
+\t (00:04:11) Moving R6 / R_RES400_200 / RES400.
+\t (00:04:11) last pick:  4900.00  17100.00
+\i (00:04:15) pick grid 7902.95 18347.55
+\t (00:04:15) last pick:  7900.00  18300.00
+\i (00:04:17) pick grid 4522.84 17295.61
+\t (00:04:17) last pick:  4500.00  17300.00
+\t (00:04:17) Moving R7 / R_RES400_200 / RES400.
+\t (00:04:17) last pick:  4500.00  17100.00
+\i (00:04:18) pick grid 8452.95 18326.19
+\t (00:04:18) last pick:  8500.00  18300.00
+\i (00:04:19) pick grid 8116.54 16852.40
+\t (00:04:19) last pick:  8100.00  16900.00
+\t (00:04:19) Moving D3 / LED_CAP196_LED / CAP196.
+\t (00:04:19) last pick:  8100.00  16800.00
+\i (00:04:20) pick grid 7897.61 17850.95
+\t (00:04:20) last pick:  7900.00  17900.00
+\i (00:04:22) pick grid 7913.63 16558.71
+\t (00:04:22) last pick:  7900.00  16600.00
+\t (00:04:22) Moving D5 / LED_CAP196_LED / CAP196.
+\t (00:04:22) last pick:  7900.00  16500.00
+\i (00:04:23) pick grid 8474.31 17850.95
+\t (00:04:23) last pick:  8500.00  17900.00
+\i (00:04:24) pick grid 7230.13 16099.48
+\t (00:04:24) last pick:  7200.00  16100.00
+\t (00:04:24) Moving U3 / 74HC93_8_DIP14_3_74HC93 / DIP14_3.
+\t (00:04:24) last pick:  7000.00  16200.00
+\i (00:04:28) pick grid 5313.13 18053.86
+\t (00:04:28) last pick:  5300.00  18100.00
+\i (00:04:29) zoom out 1 
+\i (00:04:29) setwindow pcb
+\i (00:04:29) zoom out 6893.72 16564.05
+\i (00:04:29) trapsize 5340
+\i (00:04:30) zoom in 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom in 6968.48 16617.45
+\i (00:04:30) trapsize 2670
+\i (00:04:31) pick grid 6973.82 16761.62
+\t (00:04:31) last pick:  7000.00  16800.00
+\i (00:04:31) zoom in 1 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom in 7347.61 16654.83
+\i (00:04:31) trapsize 1335
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 7355.62 16665.51
+\i (00:04:32) trapsize 2670
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 7360.96 16665.52
+\i (00:04:32) trapsize 5340
+\i (00:04:32) zoom in 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom in 7211.44 16612.12
+\i (00:04:32) trapsize 2670
+\i (00:04:38) save 
+\i (00:04:40) fillin yes 
+\i (00:04:41) generaledit 
+\i (00:04:44) zoom in 1 
+\i (00:04:44) setwindow pcb
+\i (00:04:44) zoom in 8204.65 17252.90
+\i (00:04:44) trapsize 1335
+\i (00:04:44) zoom in 1 
+\i (00:04:44) setwindow pcb
+\i (00:04:44) zoom in 8207.32 17250.23
+\i (00:04:44) trapsize 667
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 8053.81 17047.32
+\i (00:04:45) trapsize 1335
+\i (00:04:46) zoom out 1 
+\i (00:04:46) setwindow pcb
+\i (00:04:46) zoom out 7928.31 17111.40
+\i (00:04:46) trapsize 2670
+\i (00:04:49) pick grid 7458.42 16865.78
+\t (00:04:49) last pick:  7500.00  16900.00
+\i (00:04:50) pick grid 6182.20 16785.68
+\t (00:04:50) last pick:  6200.00  16800.00
+\i (00:04:50) prepopup 6182.20 16785.68
+\i (00:04:50) pick grid 7623.96 16999.27
+\t (00:04:50) last pick:  7600.00  17000.00
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 7864.25 17058.01
+\i (00:04:53) trapsize 1335
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 7866.92 17058.01
+\i (00:04:53) trapsize 667
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 7866.92 17058.01
+\i (00:04:53) trapsize 334
+\i (00:04:53) zoom out 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom out 7866.92 17058.01
+\i (00:04:53) trapsize 667
+\i (00:04:53) zoom out 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom out 7866.92 17058.01
+\i (00:04:53) trapsize 1335
+\i (00:04:53) zoom out 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom out 7866.92 17058.01
+\i (00:04:53) trapsize 2670
+\i (00:04:54) drag_start grid 7397.02 17009.95
+\i (00:04:54) drag_stop 8091.19 16556.07
+\i (00:04:54) drag_start grid 8256.73 16662.86
+\i (00:04:55) drag_stop 5656.26 16636.16
+\i (00:04:57) drag_start grid 4956.75 19695.85
+\i (00:04:58) drag_stop 9207.21 16871.11
+\i (00:04:58) pick grid 7204.79 16860.43
+\t (00:04:58) last pick:  7200.00  16900.00
+\i (00:05:00) drag_start grid 8998.95 16983.25
+\i (00:05:01) roam y -16
+\i (00:05:01) roam y -16
+\i (00:05:01) roam y -16
+\i (00:05:02) roam x -16
+\i (00:05:02) roam x -16
+\i (00:05:02) roam x -16
+\i (00:05:02) roam x -16
+\i (00:05:02) roam y -16
+\i (00:05:02) roam x -48
+\i (00:05:02) roam y -16
+\i (00:05:02) roam x -32
+\i (00:05:02) roam x -16
+\i (00:05:02) roam x -16
+\i (00:05:03) drag_stop 4624.24 20061.52
+\i (00:05:04) drag_start grid 6786.85 18860.08
+\i (00:05:05) drag_stop grid 6055.30 18854.74
+\i (00:05:05) drag_start grid 6877.63 18737.26
+\i (00:05:05) drag_stop grid 5852.39 18721.24
+\i (00:05:07) pick grid 6915.00 16724.17
+\t (00:05:07) last pick:  6900.00  16700.00
+\i (00:05:10) pick grid 7956.26 16681.45
+\t (00:05:10) last pick:  8000.00  16700.00
+\i (00:05:10) drag_start grid 8260.63 16975.14
+\i (00:05:10) roam x 16
+\i (00:05:10) roam x 32
+\i (00:05:11) drag_stop 8634.41 16975.14
+\i (00:05:11) drag_start grid 8047.04 17007.18
+\i (00:05:11) drag_stop 8452.86 16985.82
+\i (00:05:12) drag_start grid 7390.24 16975.14
+\i (00:05:12) roam x 16
+\i (00:05:12) roam x 16
+\i (00:05:12) roam x 32
+\i (00:05:12) roam x 16
+\i (00:05:12) drag_stop 9061.59 16889.70
+\i (00:05:13) pick grid 7149.95 16596.01
+\t (00:05:13) last pick:  7100.00  16600.00
+\i (00:05:23) xdehilite 
+\i (00:05:23) xrefdes U3 
+\i (00:05:23) xname_flush 
+\i (00:05:23) done 
+\i (00:05:23) generaledit 
+\i (00:05:24) xrefdes U3 
+\i (00:05:24) xname_flush 
+\i (00:05:46) pick grid 7582.47 17007.18
+\t (00:05:46) last pick:  7600.00  17000.00
+\i (00:26:25) save 
+\i (00:26:33) fillin yes 
+\i (00:26:33) generaledit 
+\i (00:26:58) exit 
+\t (00:27:00)     Journal end - Mon Oct 26 16:48:15 2020

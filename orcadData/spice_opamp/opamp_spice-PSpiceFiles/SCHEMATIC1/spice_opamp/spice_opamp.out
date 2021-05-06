@@ -1,0 +1,148 @@
+
+**** 02/15/21 15:44:17 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_opamp"  [ C:\ORCADDATA\spice_opamp\opamp_spice-PSpiceFiles\SCHEMATIC1\spice_opamp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "spice_opamp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPAMP_SPICE
+X_U1         N00326 N00330 N00087 N00115 N00343 LF356/LT
+V_V1         N00087 0 12Vdc
+V_V2         0 N00115 12Vdc
+R_R2         N00330 N00343  5k TC=0,0 
+V_V4         N00326 0  AC 0
++SIN 0 0.5 60 0 0 0
+R_R3         0 N00330  1k TC=0,0 
+
+**** RESUMING spice_opamp.cir ****
+.END
+
+**** 02/15/21 15:44:17 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_opamp"  [ C:\ORCADDATA\spice_opamp\opamp_spice-PSpiceFiles\SCHEMATIC1\spice_opamp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DM1        X_U1.DM2        X_U1.DM3        X_U1.DM4        
+          IS    1.000000E-15  800.000000E-18  100.000000E-18    1.000000E-09 
+          BV                   43.2                                          
+
+
+**** 02/15/21 15:44:17 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_opamp"  [ C:\ORCADDATA\spice_opamp\opamp_spice-PSpiceFiles\SCHEMATIC1\spice_opamp.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JM1        X_U1.JM2        
+               PJF             PJF             
+         VTO   -1               -.997        
+        BETA  925.280000E-06  925.280000E-06 
+          IS   31.500000E-12   28.500000E-12 
+
+
+**** 02/15/21 15:44:17 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_opamp"  [ C:\ORCADDATA\spice_opamp\opamp_spice-PSpiceFiles\SCHEMATIC1\spice_opamp.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00087)   12.0000 (N00115)  -12.0000 (N00326)    0.0000 (N00330)     .0030     
+
+(N00343)     .0180 (X_U1.1)     .0180 (X_U1.8)-8.623E-06 (X_U1.12)    -.4877    
+
+(X_U1.13)    3.1732                   (X_U1.14)   -3.1372                       
+
+(X_U1.18) 62.17E-06                   (X_U1.20) 129.1E-15                       
+
+(X_U1.40)  -10.0000                   (X_U1.60)  -12.0000                       
+
+(X_U1.70)   12.0000                   (X_U1.80)   -9.7454                       
+
+(X_U1.90)   -9.7454                   (X_U1.102)     .0030                      
+
+(X_U1.103)-134.5E-12                  (X_U1.131)   12.0000                      
+
+(X_U1.141)  -12.0000                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-03
+    V_V2        -5.000E-03
+    V_V4        -6.723E-11
+    X_U1.VCM2    4.800E-04
+    X_U1.VC      8.827E-12
+    X_U1.VE      8.863E-12
+
+    TOTAL POWER DISSIPATION   1.19E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/15/21 15:44:17 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_opamp"  [ C:\ORCADDATA\spice_opamp\opamp_spice-PSpiceFiles\SCHEMATIC1\spice_opamp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

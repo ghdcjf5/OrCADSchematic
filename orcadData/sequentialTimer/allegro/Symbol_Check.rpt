@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : SEQUENTIALTIMER.brd                           )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Mon Feb 08 15:11:25 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_16.6/share/local/pcb/symbols
+	C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols
+	C:/SPB_Data/mylib/
+
+
+All Symbols Found
+
+Total symbols placed:      42 out of 44
+
+
+Symbol Found:  VR2	- C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/resadj.psm

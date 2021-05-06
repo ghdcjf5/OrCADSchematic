@@ -1,0 +1,200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jan-21-2021 at 11:23:59 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HEARINGDEVICE';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS644@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins644@discrete.\cap np.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins644@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS612@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins612@discrete.\cap np.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins612@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CAPCK05_0.1U':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS628@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins628@discrete.\cap np.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins628@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS4253@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins4253@connector.\con2.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins4253@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS4269@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins4269@connector.\con2.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins4269@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN BCE_1_TO92_NPN BCE':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS671@HEARINGDEVICE.NPN BCE_1.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins671@hearingdevice.\npn bce_1.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins671@hearingdevice.\npn bce_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'NPN BCE_1_TO92_NPN BCE':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS5176@HEARINGDEVICE.NPN BCE_1.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins5176@hearingdevice.\npn bce_1.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins5176@hearingdevice.\npn bce_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'NPN BCE_1_TO92_NPN BCE':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS5240@HEARINGDEVICE.NPN BCE_1.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins5240@hearingdevice.\npn bce_1.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins5240@hearingdevice.\npn bce_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'NPN BCE_3_TO92_NPN BCE':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS5304@HEARINGDEVICE.NPN BCE_3.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins5304@hearingdevice.\npn bce_3.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins5304@hearingdevice.\npn bce_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_22':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS1493@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins1493@discrete.\r.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins1493@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR VAR_RESADJ_100K':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS3468@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins3468@discrete.\resistor var.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins3468@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR VAR_RESADJ_100K':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS3665@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins3665@discrete.\resistor var.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins3665@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS752@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins752@discrete.\r.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins752@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR VAR_RESADJ_1K':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS3750@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins3750@discrete.\resistor var.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins3750@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_22':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS1587@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins1587@discrete.\r.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins1587@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW PUSHBUTTON_JUMPER2_SW PUSHBU':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS777@DISCRETE.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins777@discrete.\sw pushbutton.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins777@discrete.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW PUSHBUTTON_JUMPER2_SW PUSHBU':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS793@DISCRETE.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins793@discrete.\sw pushbutton.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins793@discrete.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'NE555_1_DIP8_3_NE555':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS407@HEARINGDEVICE.NE555_1.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins407@hearingdevice.\ne555_1.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins407@hearingdevice.\ne555_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '74123_3_DIP16_3_74123':;
+
+SECTION_NUMBER 1
+ '@HEARINGDEVICE.SCHEMATIC1(SCH_1):INS2376@HEARINGDEVICE.74123_3.NORMAL(CHIPS)':
+ C_PATH='@hearingdevice.schematic1(sch_1):ins2376@hearingdevice.\74123_3.normal\(chips)',
+ P_PATH='@hearingdevice.schematic1(sch_1):page1_ins2376@hearingdevice.\74123_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+END.

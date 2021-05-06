@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CON2.dra                                      )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Jan 26 09:59:21 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/ORCADDATA/WAITINGPATIENTSIGN/allegro
+    Name      = con2.psm
+    User      = PROCESSOR
+    Machine   = PROCESSOR21
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

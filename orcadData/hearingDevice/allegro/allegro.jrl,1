@@ -1,0 +1,42 @@
+\t (00:00:02) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:02)     Journal start - Fri Jan 22 11:43:20 2021
+\t (00:00:02)         Host=PROCESSOR21 User=PROCESSOR Pid=8020 CPUs=8
+\t (00:00:02) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: C:/ORCADDATA/HEARINGDEVICE/allegro/FND_K.dra
+\i (00:00:05) trapsize 501
+\i (00:00:05) trapsize 492
+\i (00:00:05) trapsize 503
+\i (00:00:06) trapsize 436
+\i (00:00:06) trapsize 436
+\i (00:00:17) generaledit 
+\i (00:00:42) generaledit 
+\i (00:00:47) new 
+\i (00:00:56) newdrawfillin "SDFGSDG.brd" "Board"
+\t (00:00:56) Starting new design...
+\i (00:00:56) trapsize 803
+\i (00:00:56) trapsize 788
+\i (00:00:56) trapsize 803
+\i (00:00:57) trapsize 943
+\i (00:00:57) trapsize 1308
+\i (00:00:57) trapsize 1308
+\i (00:00:57) generaledit 
+\i (00:00:58) place manual 
+\i (00:01:00) setwindow form.plc_manual
+\i (00:01:00) FORM plc_manual advanced_settings  
+\i (00:01:01) FORM plc_manual library YES 
+\i (00:01:03) FORM plc_manual browse  
+\i (00:01:05) fillin "menu_cancel"
+\i (00:01:06) FORM plc_manual placement_list  
+\i (00:01:08) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:01:08) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:09) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:01:11) FORM plc_manual categories Package symbols 
+\i (00:01:12) FORM plc_manual tree  'Package symbols' 
+\i (00:03:05) FORM plc_manual cancel  
+\i (00:03:05) setwindow pcb
+\i (00:03:05) generaledit 
+\i (00:03:08) exit 
+\e (00:03:08) Do you want to save the changes you made to SDFGSDG.brd?
+\i (00:03:09) fillin no 
+\t (00:03:10)     Journal end - Fri Jan 22 11:46:27 2021

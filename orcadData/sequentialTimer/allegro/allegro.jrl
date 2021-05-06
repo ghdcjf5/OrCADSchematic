@@ -1,0 +1,72 @@
+\t (00:01:53) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:01:53)     Journal start - Tue Feb 23 15:28:31 2021
+\t (00:01:53)         Host=PROCESSOR21 User=PROCESSOR Pid=7816 CPUs=8
+\t (00:01:53) 
+\d (00:01:53) Database opened: C:/orcadData/sequentialTimer/allegro/SEQUENTIALTIMER.brd
+\i (00:01:53) generaledit 
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 47.5689 61.8259
+\t (00:01:54) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:01:54) trapsize 7694
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 47.5689 61.8260
+\i (00:01:54) trapsize 3847
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 47.5689 61.8260
+\i (00:01:54) trapsize 1924
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out 47.6074 61.7106
+\i (00:01:55) trapsize 3847
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out 47.6844 61.6337
+\i (00:01:55) trapsize 7694
+\i (00:01:56) roam x -96 
+\i (00:01:56) roam x -96
+\i (00:02:02) pick grid 55.7251 52.8621
+\t (00:02:02) last pick:  55.7500  52.7500
+\i (00:02:03) roam x -96 
+\i (00:02:03) roam x -96
+\i (00:02:03) roam x -96 
+\i (00:02:03) roam x -96
+\i (00:02:04) zoom in 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom in 31.5649 57.4787
+\i (00:02:04) trapsize 3847
+\i (00:02:04) roam x 96 
+\i (00:02:04) roam x 96
+\i (00:02:05) roam y 96 
+\i (00:02:05) roam y 96
+\i (00:02:05) roam y 96 
+\i (00:02:05) roam y 96
+\i (00:02:05) roam y 96 
+\i (00:02:05) roam y 96
+\i (00:02:06) roam y 96 
+\i (00:02:06) roam y 96
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 38.8745 27.8716
+\i (00:02:06) trapsize 7694
+\i (00:02:07) roam y -96 
+\i (00:02:07) roam y -96
+\i (00:02:09) trapsize 7702
+\i (00:02:10) trapsize 9055
+\i (00:02:12) roam x -96 
+\i (00:02:12) roam x -96
+\i (00:02:12) roam x -96 
+\i (00:02:12) roam x -16
+\i (00:02:12) roam x 96 
+\i (00:02:12) roam x 96
+\i (00:02:13) roam x 96 
+\i (00:02:13) roam x 96
+\i (00:02:13) roam x 96 
+\i (00:02:13) roam x 96
+\i (00:02:19) setwindow form.vf_vis
+\i (00:02:19) FORM vf_vis all_all_visible YES 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) exit 
+\t (00:04:41)     Journal end - Tue Feb 23 15:31:19 2021

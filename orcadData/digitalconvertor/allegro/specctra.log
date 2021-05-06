@@ -1,0 +1,63 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Feb 05 14:08:04 2021
+# 
+# Allegro PCB Router v16-6-111 made 2012/09/05 at 23:00:56
+# Running on: processor21, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/orcadData/digitalconvertor/allegro\DIGITALCONVERTOR.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/orcadData/digitalconvertor/allegro/specctra.did
+# Current time = Fri Feb 05 14:08:04 2021
+# PCB C:/orcadData/digitalconvertor/allegro
+# Master Unit set up as: MM 100000
+# PCB Limits xlo=-72.0000 ylo=-72.0000 xhi=229.0000 yhi=142.0000
+# Total 25 Images Consolidated.
+# Via VIA z=1, 2 xlo= -0.3048 ylo= -0.3048 xhi=  0.3048 yhi=  0.3048
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# <<WARNING:>> Potential non fixed positive shape alignment with the host CAD system exists.
+#              Allegro PCB Router does not perform any operations to remove or identify slivers and isolations.
+#              If the host CAD system performs such an operation, the user may experience unrouted
+#              or DRC alignment issues.
+#              The user must perform final unrouted/DRC validation within the host CAD system.
+# Wires Processed 129, Vias Processed 10
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 34, Images Processed 42, Padstacks Processed 5
+# Nets Processed 27, Net Terminals 105
+# PCB Area=62370.000  EIC=6  Area/EIC=10395.000  SMDs=3
+# Total Pin Count: 97
+# Signal Connections Created 4
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.5000
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.5000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/orcadData/digitalconvertor/allegro\DIGITALCONVERTOR.dsn
+# Nets 27 Connections 68 Unroutes 4
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 3 Total Vias 10
+# Percent Connected   82.35
+# Manhattan Length 1171.6368 Horizontal 692.1024 Vertical 479.5343
+# Routed Length 705.9664 Horizontal 395.7971 Vertical 395.2432
+# Ratio Actual / Manhattan   0.6025
+# Unconnected Length  19.8919 Horizontal   5.9162 Vertical  13.9757
+# Total Conflicts: 21 (Cross: 0, Clear: 21, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/orcadData/digitalconvertor/allegro\DIGITALCONVERTOR_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <quit

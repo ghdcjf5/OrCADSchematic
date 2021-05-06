@@ -1,0 +1,58 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaay08012.tmp                             )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Fri Feb 05 13:19:22 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-363): Units system is being switched when generating drill output file data.
+
+
+ Drill files being output to directory 'C:/orcadData/digitalconvertor/allegro' ...
+
+
+
+     'DIGITALCONVERTOR-1-2.drl' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  13.0000    0.0000/  0.0000      PLATED         10
+            2.  36.0000    0.0000/  0.0000      PLATED         15
+            3.  42.0000    0.0000/  0.0000      PLATED         40
+            4. 125.0000    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                         69
+
+     ---- Total head travel:              3.63 feet (1.11 meters)
+

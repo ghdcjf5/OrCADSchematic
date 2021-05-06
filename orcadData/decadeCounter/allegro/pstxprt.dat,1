@@ -1,0 +1,277 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001Oct-20-2020 at 14:19:03 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='DECADECOUNTER';
+ POST_TIME='Mar 26 2012 19:10:13';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_CAPCK05_100U':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS113@DISCRETE.CAP.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins113@discrete.\cap.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins113@discrete.\cap.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS138@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins138@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins138@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS795@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins795@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins795@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS833@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins833@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins833@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS491@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins491@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins491@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS529@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins529@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins529@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS567@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins567@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins567@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS605@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins605@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins605@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS643@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins643@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins643@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS681@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins681@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins681@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS719@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins719@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins719@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_DO35_LED':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS757@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins757@discrete.\led.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins757@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_30K':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS179@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins179@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins179@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS773@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins773@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins773@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS811@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins811@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins811@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS849@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins849@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins849@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_200':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS163@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins163@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins163@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS507@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins507@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins507@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS545@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins545@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins545@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS583@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins583@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins583@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS621@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins621@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins621@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS659@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins659@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins659@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS697@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins697@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins697@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_RES400_R':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS735@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins735@discrete.\r.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins735@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '74HC14_DIP14-8_74HC14':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS30@GATE.74HC14.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins30@gate.\74hc14.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins30@gate.\74hc14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='A';
+
+SECTION_NUMBER 2
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS67@GATE.74HC14.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins67@gate.\74hc14.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins67@gate.\74hc14.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='B';
+
+PART_NAME
+ U2 '74HC4017_1_DIP16-8_74HC4017':;
+
+SECTION_NUMBER 1
+ '@DECADECOUNTER.SCHEMATIC1(SCH_1):INS248@DECADECOUNTER.74HC4017_1.NORMAL(CHIPS)':
+ C_PATH='@decadecounter.schematic1(sch_1):ins248@decadecounter.\74hc4017_1.normal\(chips)',
+ P_PATH='@decadecounter.schematic1(sch_1):page1_ins248@decadecounter.\74hc4017_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

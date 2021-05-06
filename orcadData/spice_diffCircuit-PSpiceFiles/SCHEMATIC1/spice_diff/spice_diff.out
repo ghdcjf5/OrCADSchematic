@@ -1,0 +1,449 @@
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "spice_diff.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SPICE_DIFFCIRCUIT
+X_U1A         N00440 N00433 $G_DPWR $G_DGND 7405 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00454 N00447 $D_HI $D_HI OUTPUT OUTPUT_BAR $G_DPWR $G_DGND 74107
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00433 N00429 $G_DPWR $G_DGND 7414 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N00429 N00454 $G_DPWR $G_DGND 7414 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4A         N00440 N00447 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+R_R1         N00429 N00531  750 TC=0,0 
+C_C1         N00531 N00454  400p  TC=0,0 
+U_DSTM1         STIM(1,1) $G_DPWR $G_DGND N00440 IO_STM IO_LEVEL=0 
++ 0 0
++ +1ms 1
++REPEAT FOREVER
++ +1ms 0
++  +1ms 1
++ ENDREPEAT
+U_DSTM2         STIM(1,1) $G_DPWR $G_DGND N00440 IO_STM IO_LEVEL=0 
++ 0 0
++ +.5uS 1
++REPEAT FOREVER
++ +.5uS 0
++  +.5uS 1
++ ENDREPEAT
+
+**** RESUMING spice_diff.cir ****
+.END
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+*
+* Analog/Digital interface for node N00429
+*
+* Moving X_U3B.U1:IN1 from analog node N00429 to new digital node N00429$AtoD
+X$N00429_AtoD1
++ N00429
++ N00429$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD_ST
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U3A.U1:OUT1 from analog node N00429 to new digital node N00429$DtoA
+X$N00429_DtoA1
++ N00429$DtoA
++ N00429
++ $G_DPWR
++ $G_DGND
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface for node N00454
+*
+* Moving X_U2A.U2BUF:IN1 from analog node N00454 to new digital node N00454$AtoD
+X$N00454_AtoD1
++ N00454
++ N00454$AtoD
++ $G_DPWR
++ $G_DGND
++ AtoD_STD
++       PARAMS: CAPACITANCE=   0     
+* Moving X_U3B.U1:OUT1 from analog node N00454 to new digital node N00454$DtoA
+X$N00454_DtoA1
++ N00454$DtoA
++ N00454
++ $G_DPWR
++ $G_DGND
++ DtoA_STD
++       PARAMS: DRVH=  96.4   DRVL= 104    CAPACITANCE=   0     
+*
+* Analog/Digital interface power supply subcircuits
+*
+X$DIGIFPWR 0 DIGIFPWR
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D74CLMP         D74             
+          IS    1.000000E-15  100.000000E-18 
+          RS    2              25            
+         CJO    2.000000E-12    2.000000E-12 
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q74             
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF   49            
+          NF    1            
+         ISE  100.000000E-18 
+          BR     .03         
+          NR    1            
+         ISC  400.000000E-18 
+         ISS    0            
+          RB   50            
+          RE    0            
+          RC   20            
+         CJE    1.000000E-12 
+         VJE     .9          
+         MJE     .5          
+         CJC  500.000000E-15 
+         VJC     .8          
+         MJC     .33         
+        XCJC    1            
+         CJS    3.000000E-12 
+         VJS     .7          
+         MJS     .33         
+          TF  200.000000E-12 
+          TR   10.000000E-09 
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Digital Input MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DIN74           
+      S0NAME 0               
+       S0TSW    3.500000E-09 
+       S0RLO    7.13         
+       S0RHI  389            
+      S1NAME 1               
+       S1TSW    5.500000E-09 
+       S1RLO  467            
+       S1RHI  200            
+      S2NAME X               
+       S2TSW    3.500000E-09 
+       S2RLO   42.9          
+       S2RHI  116            
+      S3NAME R               
+       S3TSW    3.500000E-09 
+       S3RLO   42.9          
+       S3RHI  116            
+      S4NAME F               
+       S4TSW    3.500000E-09 
+       S4RLO   42.9          
+       S4RHI  116            
+      S5NAME Z               
+       S5TSW    3.500000E-09 
+       S5RLO  200.000000E+03 
+       S5RHI  200.000000E+03 
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Digital Output MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               DO74_ST         DO74            
+    TIMESTEP  100.000000E-12  100.000000E-12 
+      S0NAME 0               X               
+       S0VHI    1.7             2            
+       S0VLO   -1.5              .8          
+      S1NAME 1               0               
+       S1VHI    7                .8          
+       S1VLO     .9            -1.5          
+      S2NAME                 R               
+       S2VHI                    1.4          
+       S2VLO                     .8          
+      S3NAME                 R               
+       S3VHI                    2            
+       S3VLO                    1.3          
+      S4NAME                 X               
+       S4VHI                    2            
+       S4VLO                     .8          
+      S5NAME                 1               
+       S5VHI                    7            
+       S5VLO                    2            
+      S6NAME                 F               
+       S6VHI                    2            
+       S6VLO                    1.3          
+      S7NAME                 F               
+       S7VHI                    1.4          
+       S7VLO                     .8          
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Digital Gate MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_05            D_107_4         D_107_3         D_14            
+      TPLHMN   16.000000E-09    6.000000E-09    2.400000E-09    6.000000E-09 
+      TPLHTY   40.000000E-09    6.000000E-09    6.000000E-09   15.000000E-09 
+      TPLHMX   55.000000E-09    6.000000E-09    6.000000E-09   22.000000E-09 
+      TPHLMN    3.200000E-09    0               2.400000E-09    6.000000E-09 
+      TPHLTY    8.000000E-09    0               6.000000E-09   15.000000E-09 
+      TPHLMX   15.000000E-09    0               6.000000E-09   22.000000E-09 
+
+
+               D_04            D0_GATE         
+      TPLHMN    4.800000E-09    0            
+      TPLHTY   12.000000E-09    0            
+      TPLHMX   22.000000E-09    0            
+      TPHLMN    3.200000E-09    0            
+      TPHLTY    8.000000E-09    0            
+      TPHLMX   15.000000E-09    0            
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Digital Edge Triggered FF MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D_107_1         D_107_2         
+  TPCLKQLHMN    4.000000E-09    4.000000E-09 
+  TPCLKQLHTY   10.000000E-09   10.000000E-09 
+  TPCLKQLHMX   16.000000E-09   19.000000E-09 
+  TPCLKQHLMN    7.200000E-09    7.600000E-09 
+  TPCLKQHLTY   18.000000E-09   19.000000E-09 
+  TPCLKQHLMX   28.000000E-09   34.000000E-09 
+   TPPCQLHMN    4.000000E-09    4.000000E-09 
+   TPPCQLHTY   10.000000E-09   10.000000E-09 
+   TPPCQLHMX   15.000000E-09   19.000000E-09 
+   TPPCQHLMN    4.000000E-09    7.600000E-09 
+   TPPCQHLTY   10.000000E-09   19.000000E-09 
+   TPPCQHLMX   15.000000E-09   34.000000E-09 
+    TWCLKLMN    0               0            
+    TWCLKLTY   20.000000E-09   20.000000E-09 
+    TWCLKLMX   20.000000E-09   20.000000E-09 
+    TWCLKHMN    0               0            
+    TWCLKHTY   20.000000E-09   20.000000E-09 
+    TWCLKHMX   20.000000E-09   20.000000E-09 
+     TWPCLMN    0               0            
+     TWPCLTY   20.000000E-09   20.000000E-09 
+     TWPCLMX   20.000000E-09   20.000000E-09 
+   TSUDCLKMN    0               0            
+   TSUDCLKTY   20.000000E-09   20.000000E-09 
+   TSUDCLKMX   10.000000E-09   10.000000E-09 
+ TSUPCCLKHMN    0               0            
+ TSUPCCLKHTY    0               0            
+ TSUPCCLKHMX    0               0            
+    THDCLKMN    0               0            
+    THDCLKTY    6.000000E-09    6.000000E-09 
+    THDCLKMX    6.000000E-09    6.000000E-09 
+  TSUCECLKMN    0               0            
+  TSUCECLKTY    0               0            
+  TSUCECLKMX    0               0            
+   THCECLKMN    0               0            
+   THCECLKTY    0               0            
+   THCECLKMX    0               0            
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     Digital IO  MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               IO_STM          IO_STD_OC       IO_STD          IO_STD_ST       
+        DRVL    0             104             104             104            
+        DRVH    0               1.000000E+06   96.4            96.4          
+       AtoD1                 AtoD_STD        AtoD_STD        AtoD_STD_ST     
+       AtoD2                 AtoD_STD_NX     AtoD_STD_NX     AtoD_STD_ST     
+       AtoD3                 AtoD_STD        AtoD_STD        AtoD_STD_ST     
+       AtoD4                 AtoD_STD_NX     AtoD_STD_NX     AtoD_STD_ST     
+       DtoA1 DtoA_STM        DtoA_STD_OC     DtoA_STD        DtoA_STD        
+       DtoA2 DtoA_STM        DtoA_STD_OC     DtoA_STD        DtoA_STD        
+       DtoA3 DtoA_STM        DtoA_STD_OC     DtoA_STD        DtoA_STD        
+       DtoA4 DtoA_STM        DtoA_STD_OC     DtoA_STD        DtoA_STD        
+      TSWHL1                    2.747000E-09    1.511000E-09    1.511000E-09 
+      TSWHL2                    2.732000E-09    1.487000E-09    1.487000E-09 
+      TSWHL3                    2.747000E-09    1.511000E-09    1.511000E-09 
+      TSWHL4                    2.732000E-09    1.487000E-09    1.487000E-09 
+      TSWLH1                    1.589000E-09    3.517000E-09    3.517000E-09 
+      TSWLH2                    1.615000E-09    3.564000E-09    3.564000E-09 
+      TSWLH3                    1.589000E-09    3.517000E-09    3.517000E-09 
+      TSWLH4                    1.615000E-09    3.564000E-09    3.564000E-09 
+       TPWRT  100.000000E+03  100.000000E+03  100.000000E+03  100.000000E+03 
+
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00429)    1.3679 (N00454)    3.4979 (N00531)    1.3679 ($G_DGND)    0.0000    
+
+($G_DPWR)    5.0000                   (X$N00429_AtoD1.1)    1.4513              
+
+(X$N00429_AtoD1.2)     .7257          (X$N00429_AtoD1.3)    2.1636              
+
+(X$N00454_AtoD1.1)    1.5648          (X$N00454_AtoD1.2)     .7824              
+
+(X$N00454_AtoD1.3)    2.2862          
+
+
+
+ DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE  DGTL NODE : STATE
+
+
+(  N00433) : Z     (X_U2A.YB) : X     (  N00440) : 0     (X_U2A.K_BUF) : 1      
+
+(X_U2A.W1) : X     ( X_U2A.Y) : X     (X_U2A.QBAR_BUFD) : X                     
+
+(N00454$DtoA) : 1  (  OUTPUT) : X     (   $D_HI) : 1     (  N00447) : 1         
+
+(X_U2A.CLKBAR) : 0                    (X_U2A.CLK_BUF) : 1                       
+
+(N00429$AtoD) : 0  (X_U2A.JB) : 0     (X_U2A.W2) : X     (X_U2A.QBAR_BUF) : X   
+
+(X_U2A.KB) : 0     (X_U2A.J_BUF) : 1  (X_U2A.QBUFD) : X  (N00429$DtoA) : X      
+
+(X_U2A.CLRBAR_BUF) : 1                (OUTPUT_BAR) : X   (N00454$AtoD) : 1      
+
+(X_U2A.QBUF) : X   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    X$DIGIFPWR.VDPWR  -4.021E-02
+    X$DIGIFPWR.VDGND  -5.000E-06
+
+    TOTAL POWER DISSIPATION   2.01E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/25/21 12:01:56 ****** PSpice 16.6.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-spice_diff"  [ C:\ORCADDATA\spice_diffCircuit-PSpiceFiles\SCHEMATIC1\spice_diff.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.34
+

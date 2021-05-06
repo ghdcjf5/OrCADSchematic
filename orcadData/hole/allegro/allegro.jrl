@@ -1,0 +1,325 @@
+\t (00:00:02) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:02)     Journal start - Tue Feb 16 09:49:38 2021
+\t (00:00:02)         Host=PROCESSOR21 User=PROCESSOR Pid=1560 CPUs=8
+\t (00:00:02) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: C:/ORCADDATA/HOLE/allegro/HOLE.brd
+\i (00:00:03) trapsize 21144
+\i (00:00:03) trapsize 20384
+\i (00:00:03) trapsize 21277
+\i (00:00:03) trapsize 22310
+\i (00:00:03) trapsize 22310
+\i (00:00:03) generaledit 
+\i (00:00:07) prmed 
+\i (00:00:09) setwindow form.prmedit
+\i (00:00:09) FORM prmedit design  
+\i (00:00:11) FORM prmedit units Millimeter 
+\e (00:00:11) Change may cause round-off; run dbcheck.
+\i (00:00:13) FORM prmedit shapes  
+\i (00:00:14) FORM prmedit text  
+\i (00:00:14) FORM prmedit shapes  
+\i (00:00:15) FORM prmedit design  
+\i (00:00:17) FORM prmedit size A4 
+\i (00:00:21) FORM prmedit x -70.0000 
+\i (00:00:23) FORM prmedit y -70.0000 
+\i (00:00:23) FORM prmedit done  
+\w (00:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:24) setwindow pcb
+\i (00:00:24) trapsize 19488
+\t (00:00:24) Performing DRC...
+\t (00:00:24) Multithreaded DRC update (8 threads).
+\t (00:00:25) No DRC errors detected.
+\i (00:00:25) generaledit 
+\i (00:00:26) prmed 
+\i (00:00:27) setwindow form.prmedit
+\i (00:00:27) FORM prmedit text  
+\i (00:00:27) FORM prmedit shapes  
+\i (00:00:28) FORM prmedit dynshp_button  
+\i (00:00:29) setwindow form.dyn_xshape
+\i (00:00:29) FORM dyn_xshape void_controls  
+\i (00:00:32) FORM dyn_xshape art_format Gerber RS274X 
+\i (00:00:32) FORM dyn_xshape done  
+\i (00:00:33) setwindow form.prmedit
+\i (00:00:33) FORM prmedit done  
+\i (00:00:33) setwindow pcb
+\i (00:00:33) generaledit 
+\i (00:00:36) define grid 
+\t (00:00:36) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:00:36) generaledit 
+\i (00:00:38) setwindow form.grid
+\i (00:00:38) FORM grid display YES 
+\i (00:00:41) FORM grid non_etch non_etch_x_grids 0.5 
+\i (00:00:44) FORM grid non_etch non_etch_y_grids 0.5 
+\i (00:00:44) FORM grid done  
+\t (00:00:44) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom in 117.0866 27.3583
+\i (00:00:45) trapsize 9744
+\i (00:01:09) board outline 
+   (00:01:09) Loading floor.cxt 
+   (00:01:09) Loading fputil.cxt 
+   (00:01:09) Loading axlcore.cxt 
+\i (00:01:15) setwindow form.fpbdoutline
+\i (00:01:15) FORM fpbdoutline fpboplacerect YES 
+\i (00:01:20) FORM fpbdoutline fpboplacewdt 100MM 
+\i (00:01:26) FORM fpbdoutline fpboplacehgt 100MM 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) pick 0 0 
+\t (00:01:30) last pick:  0.0000  0.0000
+\i (00:01:31) prepopup 107.1476 -10.4488
+\i (00:01:33) prepopup 135.4055 -13.7617
+\i (00:01:34) prepopup 118.2559 -10.6436
+\i (00:01:35) pick grid 112.9941 -24.4803
+\t (00:01:35) last pick:  113.0000  -24.5000
+\i (00:01:36) setwindow form.fpbdoutline
+\i (00:01:36) FORM fpbdoutline done  
+\i (00:01:36) setwindow pcb
+\i (00:01:36) generaledit 
+\i (00:01:37) roam x -96 
+\i (00:01:37) roam x -96
+\i (00:01:37) roam x -96 
+\i (00:01:37) roam x -96
+\i (00:01:38) roam x -96 
+\i (00:01:38) roam x -96
+\i (00:01:38) roam x -96 
+\i (00:01:38) roam x -96
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 54.5295 -17.0747
+\i (00:01:38) trapsize 19488
+\i (00:01:39) roam x 96 
+\i (00:01:39) roam y -96 
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in 98.7677 32.4252
+\i (00:01:39) trapsize 9744
+\i (00:01:40) roam x -96 
+\i (00:01:40) roam x -96
+\i (00:01:40) roam x -96 
+\i (00:01:40) roam x -96
+\i (00:01:40) roam y -96 
+\i (00:01:40) roam y -96
+\i (00:01:41) roam y -96 
+\i (00:01:41) roam y -96
+\i (00:01:42) roam y 96 
+\i (00:01:42) roam y 96
+\i (00:01:49) place manual 
+\i (00:01:53) setwindow form.plc_manual
+\i (00:01:53) FORM plc_manual categories Package symbols 
+\i (00:01:54) FORM plc_manual categories Components by net group 
+\i (00:01:56) FORM plc_manual categories Mechanical symbols 
+\i (00:01:57) FORM plc_manual categories Format symbols 
+\i (00:02:02) FORM plc_manual advanced_settings  
+\i (00:02:03) FORM plc_manual library YES 
+\i (00:02:03) FORM plc_manual placement_list  
+\i (00:02:05) FORM plc_manual tree  'Format symbols' 
+\i (00:02:06) FORM plc_manual categories Components by net group 
+\i (00:02:08) FORM plc_manual categories Package symbols 
+\i (00:02:09) FORM plc_manual categories Components by refdes 
+\i (00:02:10) FORM plc_manual tree 'MULTISEL YES' TP1 'Components by refdes' 
+\t (00:02:10) Placing TP1 / TEST POINT_MYHOLEPAD_TEST POINT / MYHOLEPAD on Top.
+\i (00:02:10) FORM plc_manual tree  TP1 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree 'MULTISEL YES' TP2 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree  TP2 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree 'MULTISEL YES' TP3 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree  TP3 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree 'MULTISEL YES' TP4 'Components by refdes' 
+\i (00:02:11) FORM plc_manual tree  TP4 'Components by refdes' 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) pick 5 5 
+\t (00:02:22) last pick:  5.0000  5.0000
+\t (00:02:22) Placing TP2 / TEST POINT_MYHOLEPAD_TEST POINT / MYHOLEPAD on Top.
+\i (00:02:26) pick 95 5 
+\t (00:02:26) last pick:  95.0000  5.0000
+\t (00:02:26) Placing TP3 / TEST POINT_MYHOLEPAD_TEST POINT / MYHOLEPAD on Top.
+\i (00:02:31) pick 95 95 
+\t (00:02:31) last pick:  95.0000  95.0000
+\t (00:02:31) Placing TP4 / TEST POINT_MYHOLEPAD_TEST POINT / MYHOLEPAD on Top.
+\i (00:02:36) pick 5 95 
+\t (00:02:36) last pick:  5.0000  95.0000
+\i (00:02:37) prepopup 49.0728 36.4056
+\i (00:02:38) done 
+\i (00:02:38) generaledit 
+\i (00:02:41) pick grid -7.6378 69.5355
+\t (00:02:41) last pick:  -7.5000  69.5000
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 90.7775 91.7520
+\i (00:02:42) trapsize 4872
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 90.7775 91.7521
+\i (00:02:42) trapsize 2436
+\i (00:02:42) zoom out 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom out 91.9956 91.5572
+\i (00:02:42) trapsize 4872
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 81.3745 78.0129
+\i (00:02:46) trapsize 9744
+\i (00:02:52) color192 
+\i (00:02:52) setwindow cvf.dialog
+\i (00:02:52) cvf layer_mode
+\i (00:02:52) setwindow pcb
+\i (00:02:52) generaledit 
+\i (00:02:54) setwindow cvf.dialog
+\i (00:02:54) cvf cancel
+\i (00:03:03) setwindow pcb
+\i (00:03:03) enved 
+\i (00:03:04) generaledit 
+\i (00:03:05) setwindow form.prfedit
+\i (00:03:05) FORM prfedit cancel  
+\i (00:03:07) setwindow pcb
+\i (00:03:07) dimension edit 
+\i (00:03:29) cmgr 
+\w (00:03:29) Can not launch Constraint Manager while a command is active.
+\i (00:03:30) fillin confirm
+\i (00:03:30) prepopup 66.3685 81.7157
+\i (00:03:31) done 
+\i (00:03:31) generaledit 
+\i (00:03:37) cmgr 
+\i (00:03:38) generaledit 
+\i (00:03:45) setwindow cmgr
+\i (00:03:45) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (00:03:47) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:03:52) cm select ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:03:52) cm select ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:03:53) cm newView ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:03:57) cm scope Design "HOLE"
+\i (00:03:57) cm putValue ( Net "GND" ) NO_RAT On 0
+\i (00:03:57) cm endUndoBlock
+\i (00:04:15) cm select ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:04:15) cm select ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:04:15) cm select ( worksheet 144:Properties 14:Net "36:General Properties" "37:General Properties" )
+\i (00:04:16) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:04:21) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.5 7
+\i (00:04:21) cm endUndoBlock
+\i (00:04:30) cm exit
+\i (00:04:53) setwindow pcb
+\i (00:04:53) shape add rect 
+\i (00:04:56) setwindow form.mini
+\i (00:04:56) FORM mini class ETCH 
+\t (00:04:56) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (00:04:58) FORM mini subclass BOTTOM 
+\i (00:05:03) FORM mini dyns_netname_list  
+\i (00:05:05) fillin "Gnd"
+\t (00:05:05) Assigning selected shape to net: GND
+\i (00:06:08) setwindow pcb
+\i (00:06:08) pick 5 5 
+\t (00:06:08) last pick:  5.0000  5.0000
+\i (00:06:16) pick 95 95] 
+\t (00:06:16) last pick:  95.0000  95.0000
+\i (00:06:18) prepopup 112.9453 76.2590
+\i (00:06:19) done 
+\i (00:06:19) generaledit 
+\i (00:06:29) zoom in 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom in 106.5142 93.9932
+\i (00:06:29) trapsize 4872
+\i (00:06:29) zoom in 1 
+\i (00:06:29) setwindow pcb
+\i (00:06:29) zoom in 106.4168 93.9933
+\i (00:06:29) trapsize 2436
+\i (00:06:30) zoom out 1 
+\i (00:06:30) setwindow pcb
+\i (00:06:30) zoom out 100.2294 93.5061
+\i (00:06:30) trapsize 4872
+\i (00:06:31) zoom out 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom out 100.1319 93.5061
+\i (00:06:31) trapsize 9744
+\i (00:06:32) roam x -96 
+\i (00:06:32) roam x -96
+\i (00:06:32) roam y 96 
+\i (00:06:32) roam y 96
+\i (00:06:33) roam x -96 
+\i (00:06:33) roam x -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:41) status 
+\i (00:06:41) generaledit 
+\i (00:06:43) setwindow form.status
+\i (00:06:43) FORM status done  
+\i (00:07:13) setwindow pcb
+\i (00:07:13) ncdrill customization 
+\i (00:07:13) generaledit 
+\i (00:07:18) setwindow form.nc_drillcustomization
+\i (00:07:18) FORM nc_drillcustomization auto_symbols  
+\i (00:07:20) fillin yes 
+\i (00:07:22) FORM nc_drillcustomization done  
+\i (00:07:24) fillin yes 
+\i (00:07:29) setwindow pcb
+\i (00:07:29) ncdrill legend 
+\i (00:07:32) setwindow form.nc_drilllegend
+\i (00:07:32) FORM nc_drilllegend done  
+   (00:07:32) Loading mfg.cxt 
+\i (00:07:34) setwindow pcb
+\i (00:07:34) zoom out 1 
+\i (00:07:34) setwindow pcb
+\i (00:07:34) zoom out 6.0039 44.0059
+\i (00:07:34) trapsize 19488
+\i (00:07:35) zoom in 1 
+\i (00:07:35) setwindow pcb
+\i (00:07:35) zoom in 3.2756 -9.2795
+\i (00:07:35) trapsize 9744
+\i (00:07:38) pick 0 0 
+\t (00:07:38) last pick:  0.0000  0.0000
+\t (00:07:38) NC Drill Legend generation successful
+\i (00:07:38) done 
+\i (00:07:38) generaledit 
+\i (00:07:40) zoom out 1 
+\i (00:07:40) setwindow pcb
+\i (00:07:40) zoom out 48.8780 -27.1260
+\i (00:07:40) trapsize 19488
+\i (00:07:40) zoom in 1 
+\i (00:07:40) setwindow pcb
+\i (00:07:40) zoom in 94.8701 -50.5945
+\i (00:07:40) trapsize 9744
+\i (00:07:42) roam x -96 
+\i (00:07:42) roam x -96
+\i (00:07:42) roam x -96 
+\i (00:07:42) roam x -96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam y -96 
+\i (00:07:43) roam y -96
+\i (00:07:44) roam y -96 
+\i (00:07:44) roam y -96
+\i (00:08:14) color192 
+\i (00:08:15) setwindow cvf.dialog
+\i (00:08:15) cvf layer_mode
+\i (00:08:15) setwindow pcb
+\i (00:08:15) generaledit 
+\i (00:08:19) setwindow cvf.dialog
+\i (00:08:19) cvf global_invisible
+\i (00:08:20) cvf layer_tree_item 'Board Geometry'
+\i (00:08:23) cvf layers_visible board_geometry/outline TRUE
+\i (00:08:40) cvf layers_visible board_geometry/all_row TRUE
+\i (00:08:42) cvf layer_tree_item 'Manufacturing'
+\i (00:08:45) cvf layers_visible manufacturing/nclegend-1-2 TRUE
+\i (00:08:53) cvf apply
+\i (00:09:06) cvf okay
+\i (00:09:31) setwindow pcb
+\i (00:09:31) color192 
+\i (00:09:31) setwindow cvf.dialog
+\i (00:09:31) cvf layer_mode
+\i (00:09:31) setwindow pcb
+\i (00:09:31) generaledit 
+\i (00:09:34) setwindow cvf.dialog
+\i (00:09:34) cvf global_visible
+\i (00:09:35) cvf layer_tree_item 'Manufacturing'
+\i (00:09:36) cvf layer_tree_item 'Components'
+\i (00:09:37) cvf layers_visible components components/all_row TRUE
+\i (00:09:38) cvf layers_visible components components/all_row FALSE
+\i (00:09:38) cvf layers_visible components ref_des/silkscreen_top TRUE
+\i (00:09:39) cvf apply
+\i (00:09:40) cvf okay
+\i (00:09:55) setwindow pcb
+\i (00:09:55) color192 
+\i (00:09:55) setwindow cvf.dialog
+\i (00:09:55) cvf layer_mode
+\i (00:09:55) setwindow pcb
+\i (00:09:55) generaledit 

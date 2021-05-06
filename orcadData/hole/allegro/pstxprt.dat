@@ -1,0 +1,50 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Feb-16-2021 at 09:49:35 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='HOLE';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ TP1 'TEST POINT_MYHOLEPAD_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@HOLE.SCHEMATIC1(SCH_1):INS24@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@hole.schematic1(sch_1):ins24@connector.\test point.normal\(chips)',
+ P_PATH='@hole.schematic1(sch_1):page1_ins24@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TEST POINT_MYHOLEPAD_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@HOLE.SCHEMATIC1(SCH_1):INS46@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@hole.schematic1(sch_1):ins46@connector.\test point.normal\(chips)',
+ P_PATH='@hole.schematic1(sch_1):page1_ins46@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP3 'TEST POINT_MYHOLEPAD_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@HOLE.SCHEMATIC1(SCH_1):INS68@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@hole.schematic1(sch_1):ins68@connector.\test point.normal\(chips)',
+ P_PATH='@hole.schematic1(sch_1):page1_ins68@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP4 'TEST POINT_MYHOLEPAD_TEST POINT':;
+
+SECTION_NUMBER 1
+ '@HOLE.SCHEMATIC1(SCH_1):INS90@CONNECTOR.TEST POINT.NORMAL(CHIPS)':
+ C_PATH='@hole.schematic1(sch_1):ins90@connector.\test point.normal\(chips)',
+ P_PATH='@hole.schematic1(sch_1):page1_ins90@connector.\test point.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

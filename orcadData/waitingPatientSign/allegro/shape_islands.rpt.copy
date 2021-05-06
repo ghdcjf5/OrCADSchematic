@@ -1,0 +1,28 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : WAITINGPATIENTSIGN.brd                        )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Fri Jan 22 15:26:50 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 8
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: <a href="xprobe:xy:31.2054 28.5450">(31.2054 28.5450)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:36.0180 28.6902">(36.0180 28.6902)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:120.7881 33.1352">(120.7881 33.1352)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:73.2069 38.8480">(73.2069 38.8480)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:101.8061 38.8480">(101.8061 38.8480)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:30.1580 43.9280">(30.1580 43.9280)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:31.4257 46.4702">(31.4257 46.4702)</a>  Net: GND
+	Point on shape: <a href="xprobe:xy:40.2732 49.0082">(40.2732 49.0082)</a>  Net: GND
+</PRE>
+</BODY></HTML>

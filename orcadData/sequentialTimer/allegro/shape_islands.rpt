@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : SEQUENTIALTIMER.brd                           )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Mon Feb 08 15:45:21 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 11
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (42.8126 29.0237)  Net: GND
+	Point on shape: (53.9847 31.1006)  Net: GND
+	Point on shape: (17.7688 29.7857)  Net: GND
+	Point on shape: (20.4492 29.9039)  Net: GND
+	Point on shape: (64.3652 29.8947)  Net: GND
+	Point on shape: (72.9464 34.6674)  Net: GND
+	Point on shape: (56.5407 32.8639)  Net: GND
+	Point on shape: (22.4500 35.9790)  Net: GND
+	Point on shape: (71.4498 36.6616)  Net: GND
+	Point on shape: (71.0984 46.5425)  Net: GND
+	Point on shape: (71.1278 48.6937)  Net: GND

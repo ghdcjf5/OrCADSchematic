@@ -1,0 +1,19 @@
+\t (00:00:02) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:02)     Journal start - Fri Jan 22 11:47:31 2021
+\t (00:00:02)         Host=PROCESSOR21 User=PROCESSOR Pid=2576 CPUs=8
+\t (00:00:02) 
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 653
+\i (00:00:05) trapsize 641
+\i (00:00:05) trapsize 655
+\i (00:00:05) trapsize 568
+\i (00:00:05) trapsize 1059
+\i (00:00:06) generaledit 
+\i (00:00:42) open 
+\e (00:00:42) Do you want to save the changes you made to FND_K.dra?
+\i (00:00:45) fillin no 
+\i (00:00:54) fillin "C:\SPB_Data\mylib\FND_K.dra"
+\i (00:00:54) cd "C:\SPB_Data\mylib"
+\t (00:00:54) Opening existing design...
+\i (00:00:54) trapsize 436
+\t (00:00:54)     Journal end - Fri Jan 22 11:48:23 2021

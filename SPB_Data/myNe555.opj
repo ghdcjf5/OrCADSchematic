@@ -1,0 +1,41 @@
+(ExpressProject "myNe555"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\cadence\spb_16.5\tools\capture\library\myne555.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\myne555.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (myNe555
+      (FullPartName "myNe555.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\MYNE555.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\myne555.dsn")
+      (Path "Design Resources" ".\myne555.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 185"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 978 52 276")
+        (Scroll "1165 928")
+        (Zoom "400")
+        (Occurrence "/"))
+      (Path "C:\SPB_DATA\MYNE555.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

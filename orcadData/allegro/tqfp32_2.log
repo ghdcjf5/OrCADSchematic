@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : TQFP32_2.dra                                  )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Jan 26 11:33:11 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/orcadData/allegro
+    Name      = tqfp32_2.psm
+    User      = PROCESSOR
+    Machine   = PROCESSOR21
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

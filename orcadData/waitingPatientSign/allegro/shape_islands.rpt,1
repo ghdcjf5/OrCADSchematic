@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : WAITINGPATIENTSIGN.brd                        )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Fri Jan 22 15:11:35 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 8
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (34.5718 56.6280)  Net: GND
+	Point on shape: (31.2054 28.5450)  Net: GND
+	Point on shape: (36.0180 28.6902)  Net: GND
+	Point on shape: (120.7881 33.1352)  Net: GND
+	Point on shape: (73.2069 38.8480)  Net: GND
+	Point on shape: (101.8061 38.8480)  Net: GND
+	Point on shape: (63.6836 46.8987)  Net: GND
+	Point on shape: (40.2732 49.0082)  Net: GND

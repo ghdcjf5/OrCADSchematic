@@ -1,0 +1,121 @@
+\t (00:00:02) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:02)     Journal start - Tue Jan 26 09:21:41 2021
+\t (00:00:02)         Host=PROCESSOR21 User=PROCESSOR Pid=7608 CPUs=8
+\t (00:00:02) 
+\t (00:00:03) Starting new design...
+\i (00:00:04) trapsize 653
+\i (00:00:04) trapsize 641
+\i (00:00:04) trapsize 655
+\i (00:00:04) trapsize 813
+\i (00:00:04) trapsize 1059
+\i (00:00:05) generaledit 
+\i (00:18:17) new 
+\i (00:21:09) newdrawfillin "CON2.dra" "Package Symbol (Wizard)"
+\t (00:21:09) Starting new design...
+\i (00:21:09) trapsize 813
+\i (00:21:09) trapsize 792
+\i (00:21:09) trapsize 813
+\i (00:21:10) trapsize 568
+\i (00:21:10) trapsize 1059
+\i (00:21:10) trapsize 1059
+\i (00:21:10) package symbol wizard 
+\i (00:21:10) generaledit 
+   (00:21:14) Loading cmds.cxt 
+   (00:21:14) Loading axlcore.cxt 
+\i (00:21:14) setwindow form.sym_wizard
+\i (00:21:14) FORM sym_wizard sip YES 
+\i (00:21:15) FORM sym_wizard wiz_next  
+\i (00:21:26) FORM sym_wizard wiz_next  
+\i (00:21:29) fillin confirm
+\i (00:21:33) FORM sym_wizard load_template  
+\t (00:21:33) Opening existing design...
+\t (00:21:33) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:21:33) setwindow pcb
+\i (00:21:33) trapsize 212
+\d (00:21:34) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:21:36) setwindow form.sym_wizard
+\i (00:21:36) FORM sym_wizard wiz_next  
+\i (00:22:22) FORM sym_wizard ref_des J* 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) pick grid 13295 17063
+\t (00:23:59) last pick:  13300  17100
+\i (00:24:24) pick grid 14184 21213
+\t (00:24:24) last pick:  14200  21200
+\i (00:28:55) setwindow form.sym_wizard
+\i (00:28:55) FORM sym_wizard pack_units Millimeter 
+\i (00:28:57) FORM sym_wizard pack_units_create Millimeter 
+\i (00:29:01) FORM sym_wizard wiz_next  
+\i (00:29:07) FORM sym_wizard sip_pin_count 2 
+\i (00:29:10) FORM sym_wizard sip_width 3.000 
+\i (00:29:21) FORM sym_wizard sip_len 6.000 
+\i (00:29:21) FORM sym_wizard wiz_next  
+\i (00:30:27) FORM sym_wizard default_pad_browse  
+\i (00:30:34) fillin "pad.pad"
+\i (00:30:35) FORM sym_wizard default_pad_browse  
+\i (00:30:55) fillin "Pad60cir36d"
+\i (00:31:22) FORM sym_wizard wiz_next  
+\i (00:31:30) FORM sym_wizard wiz_back  
+\i (00:31:48) FORM sym_wizard pin1_pad_browse  
+\i (00:32:03) fillin "Pad60sq36d"
+\i (00:32:15) FORM sym_wizard wiz_next  
+\i (00:32:20) FORM sym_wizard origin_at_pin1 YES 
+\i (00:37:03) FORM sym_wizard wiz_next  
+\i (00:37:07) FORM sym_wizard wiz_finish  
+\w (00:37:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:37:07) Grids are drawn 10.160, 10.160 apart for enhanced viewability.
+\i (00:37:07) setwindow pcb
+\i (00:37:07) trapsize 5377
+\t (00:37:07) Performing DRC...
+\t (00:37:07) No DRC errors detected.
+\w (00:37:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:37:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:37:07) trapsize 5377
+\i (00:37:07) trapsize 759
+\i (00:37:07) trapsize 101
+\i (00:37:07) trapsize 101
+\t (00:37:07) Creating package symbol 'C:/ORCADDATA/WAITINGPATIENTSIGN/allegro/con2.psm'.
+\t (00:37:07) Starting Create symbol...
+\i (00:37:08) generaledit 
+\i (00:37:15) save 
+\i (00:37:24) fillin no 
+\i (00:37:28) fillin "menu_cancel"
+\i (00:37:28) generaledit 
+\i (00:37:39) save 
+\i (00:37:43) fillin yes 
+\t (00:37:43) Symbol 'con2.psm' created.
+\i (00:37:43) generaledit 
+\i (00:38:09) enved 
+\i (00:38:10) generaledit 
+\i (00:38:24) setwindow form.prfedit
+\i (00:38:24) FORM prfedit treelist  Paths 
+\i (00:38:26) FORM prfedit treelist  Library Paths 
+\i (00:38:33) FORM prfedit psmpath  
+\i (00:39:19) FORM prfedit cancel  
+\i (00:39:25) setwindow pcb
+\i (00:39:25) save_as 
+\i (00:39:47) fillin "C:\SPB_Data\mylib\CON2.dra"
+\i (00:39:47) cd "C:\SPB_Data\mylib"
+\t (00:39:47) Symbol 'con2.psm' created.
+\i (00:39:47) generaledit 
+\i (00:39:59) add connect 
+\w (00:39:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:39:59) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:40:00) Pick first element.
+\i (00:40:00) add connect 
+\t (00:40:00) Pick first element.
+\i (00:40:01) generaledit 
+\i (00:40:03) pick grid -5.764 5.868
+\t (00:40:03) last pick:  -5.715  5.715
+\i (00:40:08) open 
+\e (00:40:08) Do you want to save the changes you made to C:/SPB_Data/mylib/CON2.dra?
+\i (00:40:10) fillin no 
+\i (00:40:31) fillin "menu_cancel"
+\i (00:40:31) generaledit 
+\i (00:40:33) pick grid -1.513 6.212
+\t (00:40:33) last pick:  -1.270  6.350
+\i (00:40:35) save 
+\i (00:40:37) fillin yes 
+\t (00:40:38) Symbol 'con2.psm' created.
+\i (00:40:38) generaledit 
+\i (00:40:38) exit 
+\t (00:40:38)     Journal end - Tue Jan 26 10:02:17 2021

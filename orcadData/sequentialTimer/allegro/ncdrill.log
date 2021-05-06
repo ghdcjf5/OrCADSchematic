@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaabk08748.tmp                             )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Mon Feb 08 16:12:09 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-363): Units system is being switched when generating drill output file data.
+
+
+ Drill files being output to directory 'C:/ORCADDATA/SEQUENTIALTIMER/allegro' ...
+
+
+
+     'SEQUENTIALTIMER-1-2.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.  13.0000    0.0000/  0.0000      PLATED         18
+            2.  35.0000    0.0000/  0.0000      PLATED          1
+            3.  36.0000    0.0000/  0.0000      PLATED         25
+            4.  42.0000    0.0000/  0.0000      PLATED         46
+            5. 125.0000    0.0000/  0.0000  NON_PLATED          3
+
+     ---- Total holes:                                         93
+
+     ---- Total head travel:              5.50 feet (1.68 meters)
+

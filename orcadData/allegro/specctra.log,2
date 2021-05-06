@@ -1,0 +1,1338 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Fri Jan 22 12:41:05 2021
+# 
+# Allegro PCB Router v16-6-111 made 2012/09/05 at 23:00:56
+# Running on: processor21, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/ORCADDATA/allegro/specctra.did
+# Current time = Fri Jan 22 12:41:06 2021
+# PCB C:/ORCADDATA/allegro
+# Master Unit set up as: MM 100000
+# PCB Limits xlo= -5.8000 ylo= -5.6000 xhi=165.8000 yhi= 81.8000
+# Total 9 Images Consolidated.
+# Via VIA z=1, 2 xlo= -0.3048 ylo= -0.3048 xhi=  0.3048 yhi=  0.3048
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 52, Vias Processed 5
+# Layers Processed: Signal Layers 2
+# Components Placed 16, Images Processed 22, Padstacks Processed 6
+# Nets Processed 19, Net Terminals 64
+# PCB Area=11856.000  EIC=5  Area/EIC=2371.200  SMDs=0
+# Total Pin Count: 70
+# Signal Connections Created 12
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 12
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 10, at vias 3 Total Vias 5
+# Percent Connected   60.00
+# Manhattan Length 1281.7186 Horizontal 956.4762 Vertical 325.2424
+# Routed Length 1365.7041 Horizontal 963.4958 Vertical 408.0186
+# Ratio Actual / Manhattan   1.0655
+# Unconnected Length 154.9400 Horizontal  63.5000 Vertical  91.4400
+# Total Conflicts: 11 (Cross: 1, Clear: 10, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/ORCADDATA/allegro\WAITINGPATIENTSIGN_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaam08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: This board is already 60.00% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 50 route passes.
+# Current time = Fri Jan 22 12:41:07 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 12
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 10, at vias 3 Total Vias 5
+# Percent Connected   60.00
+# Manhattan Length 1281.7186 Horizontal 956.4762 Vertical 325.2424
+# Routed Length 1365.7041 Horizontal 963.4958 Vertical 408.0186
+# Ratio Actual / Manhattan   1.0655
+# Unconnected Length 154.9400 Horizontal  63.5000 Vertical  91.4400
+# Start Route Pass 1 of 50
+# Routing 24 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 17 Successes 17 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 50
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1252.0791 Horizontal 955.4282 Vertical 296.6509
+# Routed Length 1314.3448 Horizontal 949.9268 Vertical 366.9549
+# Ratio Actual / Manhattan   1.0497
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:41:07 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1252.0791 Horizontal 955.4282 Vertical 296.6509
+# Routed Length 1314.3448 Horizontal 949.9268 Vertical 366.9549
+# Ratio Actual / Manhattan   1.0497
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 61 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 52 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:41:07 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaan08024.tmp
+# Routing Written to File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaan08024.tmp
+# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaao08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: This board is already 100.00% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:41:38 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 49 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 49 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1300.2685 Horizontal 954.5355 Vertical 345.7330
+# Ratio Actual / Manhattan   1.0401
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:41:38 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1300.2685 Horizontal 954.5355 Vertical 345.7330
+# Ratio Actual / Manhattan   1.0401
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 3
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaap08024.tmp
+# Routing Written to File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaap08024.tmp
+# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaaq08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Command route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command route will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Fri Jan 22 12:43:32 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 25
+# Routing 49 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 14 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 46 Successes 46 Failures 0 Vias 11
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 3 Total Vias 11
+# Percent Connected  100.00
+# Manhattan Length 1255.8585 Horizontal 963.6933 Vertical 292.1652
+# Routed Length 1270.0105 Horizontal 950.6855 Vertical 319.3250
+# Ratio Actual / Manhattan   1.0113
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Command clean detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command clean will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Fri Jan 22 12:43:32 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 3 Total Vias 11
+# Percent Connected  100.00
+# Manhattan Length 1255.8585 Horizontal 963.6933 Vertical 292.1652
+# Routed Length 1270.0105 Horizontal 950.6855 Vertical 319.3250
+# Ratio Actual / Manhattan   1.0113
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 55 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 45 Successes 45 Failures 0 Vias 6
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 54 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 5
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    6|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    5|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 2 Total Vias 5
+# Percent Connected  100.00
+# Manhattan Length 1252.8178 Horizontal 961.6214 Vertical 291.1964
+# Routed Length 1268.0968 Horizontal 950.5070 Vertical 317.5898
+# Ratio Actual / Manhattan   1.0122
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaar08024.tmp
+# Routing Written to File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaar08024.tmp
+# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaat08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N02113 Selected.
+# Net N02129 Selected.
+# Net N02137 Selected.
+# Net N02361 Selected.
+# Net N02133 Selected.
+# Net N02121 Selected.
+# Net N02125 Selected.
+# Net N02117 Selected.
+# Net N00725 Selected.
+# Net N00733 Selected.
+# Net N00737 Selected.
+# Net N00729 Selected.
+# Net N00506 Selected.
+# Net N00514 Selected.
+# Net N00708 Selected.
+# Net N00510 Selected.
+# Net GND Selected.
+# Net N00502 Selected.
+# Net VCC Selected.
+# All Selected Wires Unprotected.
+# Command delete cmd detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command delete cmd will ignore pcb layer rule(s), mcm via rule(s)
+# All unprotected selected wires were deleted.
+# Current time = Fri Jan 22 12:43:38 2021
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 19 Connections 40 Unroutes 40
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 1290.3200 Horizontal 987.7210 Vertical 302.5990
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 1290.3200 Horizontal 955.0400 Vertical 335.2800
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Command delete cmd detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command delete cmd will ignore pcb layer rule(s), mcm via rule(s)
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Fri Jan 22 12:43:38 2021
+# Nets Processed 20, Net Terminals 73
+# Signal Connections Created 0
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaau08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Command route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command route will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Fri Jan 22 12:43:40 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 3
+# Percent Connected  100.00
+# Manhattan Length 1250.1273 Horizontal 960.1360 Vertical 289.9913
+# Routed Length 1295.8463 Horizontal 948.7243 Vertical 347.1220
+# Ratio Actual / Manhattan   1.0366
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Route Pass 1 of 25
+# Routing 49 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 12 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 8
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 25
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    6|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    5|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   | 12|     0|     0|   0|   40|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte | 12|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 13|     0|     0|   0|    0|    8|    0|   0|  0|  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 8
+# Percent Connected  100.00
+# Manhattan Length 1254.5495 Horizontal 962.8808 Vertical 291.6687
+# Routed Length 1267.5505 Horizontal 954.5355 Vertical 313.0150
+# Ratio Actual / Manhattan   1.0104
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+clean 2
+# Command clean detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command clean will ignore pcb layer rule(s), mcm via rule(s)
+# Current time = Fri Jan 22 12:43:40 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 8
+# Percent Connected  100.00
+# Manhattan Length 1254.5495 Horizontal 962.8808 Vertical 291.6687
+# Routed Length 1267.5505 Horizontal 954.5355 Vertical 313.0150
+# Ratio Actual / Manhattan   1.0104
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 55 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 4
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 52 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 49 Successes 49 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    6|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    5|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   | 12|     0|     0|   0|   40|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte | 12|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 13|     0|     0|   0|    0|    8|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 14|     0|     0|   0|    0|    4|    0|   0|   |  0:00:01|  0:00:01|
+# Clean    | 15|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1248.9249 Horizontal 959.2051 Vertical 289.7198
+# Routed Length 1265.4578 Horizontal 951.0538 Vertical 314.4040
+# Ratio Actual / Manhattan   1.0132
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+write routes (changed_only) (reset_changed) C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaav08024.tmp
+# Routing Written to File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaav08024.tmp
+# Loading Do File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaaw08024.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.000100 (direction x) (offset 0.000000)
+grid wire 0.000100 (direction y) (offset 0.000000)
+grid via 0.000100 (direction x) (offset 0.000000)
+grid via 0.000100 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Command smart_route detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command smart_route will ignore pcb layer rule(s), mcm via rule(s)
+# Smart Route: This board is already 100.00% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:43:43 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1248.9249 Horizontal 959.2051 Vertical 289.7198
+# Routed Length 1265.4578 Horizontal 951.0538 Vertical 314.4040
+# Ratio Actual / Manhattan   1.0132
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 50 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    6|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    5|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   | 12|     0|     0|   0|   40|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte | 12|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 13|     0|     0|   0|    0|    8|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 14|     0|     0|   0|    0|    4|    0|   0|   |  0:00:01|  0:00:01|
+# Clean    | 15|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 16|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 17|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1248.9248 Horizontal 959.2050 Vertical 289.7198
+# Routed Length 1269.8800 Horizontal 956.8650 Vertical 313.0150
+# Ratio Actual / Manhattan   1.0168
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Fri Jan 22 12:43:43 2021
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 0.5000, Clearance= 0.1270
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 8, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1248.9248 Horizontal 959.2050 Vertical 289.7198
+# Routed Length 1269.8800 Horizontal 956.8650 Vertical 313.0150
+# Ratio Actual / Manhattan   1.0168
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 51 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 1 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 51 wires.
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 48 Successes 48 Failures 0 Vias 4
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# End Pass 2 of 2
+# Wiring Written to File C:/ORCADDATA/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0001 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Layer BOTTOM Vert Signal Wire Grid 0.0001 with offset 0.0000, Width= 1.0000, Clearance= 0.1270
+# Command check detected pcb layer rule(s), mcm via rule(s), which require the RouteADV license feature.
+# All unlicensed rules are being ignored.
+# Command check will ignore pcb layer rule(s), mcm via rule(s)
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|     0|     0|   0|    0|    4|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    |  2|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  3|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  4|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 10|     0|     0|   0|    0|   11|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    6|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    5|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   | 12|     0|     0|   0|   40|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte | 12|     0|     0|   0|    0|    3|    0|   0|   |  0:00:00|  0:00:00|
+# Route    | 13|     0|     0|   0|    0|    8|    0|   0|  0|  0:00:00|  0:00:00|
+# Clean    | 14|     0|     0|   0|    0|    4|    0|   0|   |  0:00:01|  0:00:01|
+# Clean    | 15|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 16|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 17|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 18|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    | 19|     0|     0|   0|    0|    4|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/ORCADDATA/allegro\WAITINGPATIENTSIGN.dsn
+# Nets 20 Connections 40 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 7, at vias 1 Total Vias 4
+# Percent Connected  100.00
+# Manhattan Length 1248.9248 Horizontal 959.2050 Vertical 289.7198
+# Routed Length 1265.4578 Horizontal 951.0538 Vertical 314.4040
+# Ratio Actual / Manhattan   1.0132
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaax08024.tmp
+# Routing Written to File C:/Users/PROCES~1/AppData/Local/Temp/#Taaaaax08024.tmp
+quit

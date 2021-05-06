@@ -1,0 +1,54 @@
+\t (00:00:02) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:00:02)     Journal start - Thu Feb 04 15:11:52 2021
+\t (00:00:02)         Host=PROCESSOR21 User=PROCESSOR Pid=7668 CPUs=8
+\t (00:00:02) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: C:/SPB_Data/mylib/dcjack.dra
+\i (00:00:05) trapsize 112
+\i (00:00:05) trapsize 108
+\i (00:00:05) trapsize 112
+\i (00:00:06) trapsize 117
+\i (00:00:06) trapsize 117
+\i (00:00:06) generaledit 
+\i (00:00:11) pick grid 1.996 -5.993
+\t (00:00:11) last pick:  2.000  -6.000
+\i (00:00:13) pick grid 6.060 -5.970
+\t (00:00:13) last pick:  6.000  -6.000
+\i (00:00:15) pick grid 7.695 -2.163
+\t (00:00:15) last pick:  7.500  -2.400
+\i (00:00:16) pick grid 7.671 2.088
+\t (00:00:16) last pick:  7.500  1.800
+\i (00:00:19) pick grid 7.624 2.392
+\t (00:00:19) last pick:  7.500  2.400
+\i (00:00:20) pick grid 7.695 -2.350
+\t (00:00:20) last pick:  7.500  -2.400
+\i (00:00:29) padeditdb 
+\i (00:00:30) setwindow form.mini
+\i (00:00:30) FORM mini padlist QUAD_LLB_PAD10 
+\i (00:00:30) FORMDBLCLK mini padlist QUAD_LLB_PAD10 
+\i (00:00:33) setwindow form.padedit
+\i (00:00:33) FORM padedit layers  
+\i (00:00:35) FORM padedit parameters  
+\i (00:00:36) FORM padedit layers  
+\i (00:00:37) FORM padedit parameters  
+\i (00:00:37) FORM padedit layers  
+\i (00:00:39) FORM padedit crossbox YES 
+\i (00:00:41) FORM padedit parameters  
+\i (00:00:48) pse_exit
+\i (00:00:49) setwindow form.mini
+\i (00:00:49) FORM mini padlist QUAD_LLB_PAD100 
+\i (00:00:49) FORMDBLCLK mini padlist QUAD_LLB_PAD100 
+\i (00:00:51) setwindow form.padedit
+\i (00:00:51) FORM padedit layers  
+\i (00:01:08) pse_exit
+\i (00:01:10) setwindow pcb
+\i (00:01:10) open 
+\i (00:01:24) fillin "C:\orcadData\atmega\allegro\ATMEGA.brd"
+\i (00:01:24) cd "C:\orcadData\atmega\allegro"
+\t (00:01:24) Opening existing design...
+\i (00:01:24) trapsize 1665
+\i (00:01:24) trapsize 1593
+\i (00:01:25) trapsize 1665
+\i (00:01:25) trapsize 1681
+\i (00:01:25) trapsize 1681
+\t (00:01:25)     Journal end - Thu Feb 04 15:13:15 2021

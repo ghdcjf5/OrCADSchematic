@@ -1,0 +1,96 @@
+\t (00:20:05) allegro 16.6 B033 (v16-6-111A) Windows 32
+\t (00:20:05)     Journal start - Fri Feb 05 09:35:18 2021
+\t (00:20:05)         Host=PROCESSOR21 User=PROCESSOR Pid=4284 CPUs=8
+\t (00:20:05) 
+\d (00:20:05) Database opened: C:/orcadData/atmega/allegro/ATMEGA.brd
+\i (00:20:05) generaledit 
+\i (00:20:11) setwindow form.vf_vis
+\i (00:20:11) FORM vf_vis colorview_list Film: Soldermask_Bottom 
+\i (00:20:17) setwindow pcb
+\i (00:20:17) load photoplot 
+\i (00:20:19) setwindow form.load_photoplot
+\i (00:20:19) FORM load_photoplot browse  
+\i (00:20:25) fillin "menu_cancel"
+   (00:20:25) Loading mfg.cxt 
+\i (00:20:26) FORM load_photoplot done  
+\i (00:20:26) setwindow pcb
+\i (00:20:26) generaledit 
+\i (00:20:30) place manual 
+\i (00:20:32) setwindow form.plc_manual
+\i (00:20:32) FORM plc_manual tree  'Components by refdes' 
+\i (00:20:32) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:20:33) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:20:34) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:20:35) FORM plc_manual cancel  
+\i (00:20:35) setwindow pcb
+\i (00:20:35) generaledit 
+\i (00:20:52) open 
+\e (00:20:52) Do you want to save the changes you made to ATMEGA.brd?
+\i (00:20:53) fillin menu_cancel 
+\i (00:20:53) generaledit 
+\i (00:21:23) pick grid 119.8630 73.9664
+\t (00:21:23) last pick:  120.0150  73.6600
+\i (00:21:43) replace padstack 
+\i (00:21:49) pick grid 118.2939 65.9900
+\t (00:21:49) last pick:  118.1100  66.0400
+\i (00:21:49) prepopup 118.2939 65.9900
+\i (00:21:49) done 
+\i (00:21:50) generaledit 
+\i (00:21:58) drc update 
+\t (00:21:58) Performing DRC...
+\t (00:21:58) Multithreaded DRC update (8 threads).
+\t (00:21:58) No DRC errors detected.
+\i (00:21:58) generaledit 
+\i (00:22:05) setwindow form.vf_vis
+\i (00:22:05) FORM vf_vis colorview_list Film: Soldermask_Bottom 
+\i (00:22:06) FORM vf_vis colorview_list Film: Soldermask_Top 
+\i (00:22:09) FORM vf_vis colorview_list Film: Silkscreen_top 
+\i (00:22:11) FORM vf_vis colorview_list Film: Soldermask_Bottom 
+\i (00:22:18) setwindow pcb
+\i (00:22:18) pick grid 108.8792 86.2578
+\t (00:22:18) last pick:  108.5850  86.3600
+\i (00:22:20) place manual 
+\i (00:22:22) setwindow form.plc_manual
+\i (00:22:22) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:22:22) FORM plc_manual tree  'Components by refdes' 
+\i (00:22:22) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:22:23) FORM plc_manual categories Components by net group 
+\i (00:22:24) FORM plc_manual categories Package symbols 
+\i (00:22:32) FORM plc_manual tree  DCJACK 'Package symbols' 
+\i (00:22:32) FORM plc_manual tree 'MULTISEL YES' DCJACK 'Package symbols' 
+\i (00:22:38) FORM plc_manual categories Components by refdes 
+\i (00:22:39) FORM plc_manual categories Components by net group 
+\i (00:22:40) FORM plc_manual categories Mechanical symbols 
+\i (00:22:42) FORM plc_manual categories Format symbols 
+\i (00:22:43) FORM plc_manual categories Package symbols 
+\i (00:22:44) FORM plc_manual advanced_settings  
+\i (00:22:45) FORM plc_manual library YES 
+\i (00:22:46) FORM plc_manual placement_list  
+\i (00:22:49) FORM plc_manual cancel  
+\i (00:22:49) setwindow pcb
+\i (00:22:49) generaledit 
+\i (00:22:55) color192 
+\i (00:22:56) setwindow cvf.dialog
+\i (00:22:56) cvf layer_mode
+\i (00:22:56) setwindow pcb
+\i (00:22:56) generaledit 
+\i (00:23:00) setwindow cvf.dialog
+\i (00:23:00) cvf layer_tree_item 'Board Geometry'
+\i (00:23:04) cvf layer_tree_item 'Package Geometry'
+\i (00:23:08) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:23:09) cvf layer_tree_item 'Package Geometry'
+\i (00:23:11) cvf layers_visible package_geometry/soldermask_top TRUE
+\i (00:23:13) cvf cancel
+\i (00:25:29) setwindow pcb
+\i (00:25:29) open 
+\e (00:25:29) Do you want to save the changes you made to ATMEGA.brd?
+\i (00:25:30) fillin yes 
+\i (00:26:06) fillin "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols\dcjack.dra"
+\i (00:26:06) cd "C:\Cadence\SPB_16.6\share\pcb\pcb_lib\symbols"
+\t (00:26:06) Opening existing design...
+\i (00:26:07) trapsize 102
+\i (00:26:07) trapsize 99
+\i (00:26:07) trapsize 102
+\i (00:26:07) trapsize 101
+\i (00:26:07) trapsize 101
+\t (00:26:07)     Journal end - Fri Feb 05 09:41:20 2021

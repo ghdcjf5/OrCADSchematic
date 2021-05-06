@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MYCON8.dra                                    )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Feb 02 15:05:45 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/SPB_Data/mylib
+    Name      = mycon8.psm
+    User      = PROCESSOR
+    Machine   = PROCESSOR21
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

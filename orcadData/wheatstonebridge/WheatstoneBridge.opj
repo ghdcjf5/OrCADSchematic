@@ -1,0 +1,21 @@
+(ExpressProject "WheatstoneBridge"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\wheatstonebridge.dsn"
+      (Type "Schematic Design")))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "PROCESS-28")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources" ".\wheatstonebridge.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0))))

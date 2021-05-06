@@ -1,0 +1,130 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jan-22-2021 at 12:55:50 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='WAITINGPATIENTSIGN';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CAPCK05_0.047U':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS692@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins692@discrete.\cap np.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins692@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ DS1 'FND_K_5_FND_K_FND_K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS3805@WAITINGPATIENTSIGN.FND_K_5.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins3805@waitingpatientsign.\fnd_k_5.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins3805@waitingpatientsign.\fnd_k_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS380@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins380@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins380@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS396@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins396@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins396@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS412@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins412@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins412@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS428@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins428@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins428@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS448@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins448@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins448@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_300':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS598@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins598@discrete.\r.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins598@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'SW DIP-4/SM_DIP8_3_SW DIP-4/SM':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS38@DISCRETE.SW DIP-4/SM.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins38@discrete.\sw dip-4/sm.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins38@discrete.\sw dip-4/sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW PUSHBUTTON_JUMPER2_SW PUSHBU':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS667@DISCRETE.SW PUSHBUTTON.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins667@discrete.\sw pushbutton.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins667@discrete.\sw pushbutton.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '74LS192_0_DIP16_3_74LS192':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS103@WAITINGPATIENTSIGN.74LS192_0.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins103@waitingpatientsign.\74ls192_0.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins103@waitingpatientsign.\74ls192_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '7448_0_DIP16_3_7448':;
+
+SECTION_NUMBER 1
+ '@WAITINGPATIENTSIGN.SCHEMATIC1(SCH_1):INS277@WAITINGPATIENTSIGN.7448_0.NORMAL(CHIPS)':
+ C_PATH='@waitingpatientsign.schematic1(sch_1):ins277@waitingpatientsign.\7448_0.normal\(chips)',
+ P_PATH='@waitingpatientsign.schematic1(sch_1):page1_ins277@waitingpatientsign.\7448_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

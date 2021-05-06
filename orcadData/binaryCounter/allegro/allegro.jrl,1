@@ -1,0 +1,16 @@
+\t (00:00:00) allegro 16.5 S025 (v16-5-13BK) i86
+\t (00:00:00)     Journal start - Mon Oct 26 16:16:08 2020
+\t (00:00:00)         Host=PROCESS-129 User=PROCESS-000 Pid=13656 CPUs=8
+\t (00:00:00) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Database opened: C:/ORCADDATA/BINARYCOUNTER/allegro/BINARYCOUNTER.brd
+\i (00:00:04) trapsize 25074
+\i (00:00:04) trapsize 24011
+\i (00:00:04) trapsize 25260
+\i (00:00:05) trapsize 19451
+\i (00:00:05) trapsize 21359
+\i (00:00:06) generaledit 
+\i (00:00:11) pick grid 22555.34 12302.91
+\t (00:00:11) last pick:  22600.00  12300.00
+\i (00:00:11) exit 
+\t (00:00:12)     Journal end - Mon Oct 26 16:16:19 2020

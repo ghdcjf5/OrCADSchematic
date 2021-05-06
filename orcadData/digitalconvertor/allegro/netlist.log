@@ -1,0 +1,13 @@
+{ Using PSTWRITER 16.6.0 d001Feb-05-2021 at 11:36:32 }
+
+#1 WARNING(ORCAP-36006): Part Name "RESISTOR VAR_RESADJ_RESISTOR VAR" is renamed to "RESISTOR VAR_RESADJ_RESISTOR VA".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\ORCADDATA\DIGITALCONVERTOR\ALLEGRO/pstchip.dat
+
+Loading... C:\ORCADDATA\DIGITALCONVERTOR\ALLEGRO/pstchip.dat
+
+Loading... C:\ORCADDATA\DIGITALCONVERTOR\ALLEGRO/pstxprt.dat
+
+Loading... C:\ORCADDATA\DIGITALCONVERTOR\ALLEGRO/pstxnet.dat
+packaging the design view...

@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : HOLE.brd                                      )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Feb 16 09:49:35 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:\ORCADDATA\HOLE\allegro';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'HOLE.brd';
+NEW_BOARD_NAME 'HOLE.brd';
+
+CmdLine: netrev.exe -y 1 -n -i C:\ORCADDATA\HOLE\allegro C:\ORCADDATA\HOLE\allegro\HOLE.brd C:\ORCADDATA\HOLE\allegro\HOLE.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/ORCADDATA/HOLE/allegro/pstchip.dat 
+   Finished reading C:/ORCADDATA/HOLE/allegro/pstchip.dat (00:00:00.04)
+Starting to read C:/ORCADDATA/HOLE/allegro/pstxprt.dat 
+   Finished reading C:/ORCADDATA/HOLE/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/ORCADDATA/HOLE/allegro/pstxnet.dat 
+   Finished reading C:/ORCADDATA/HOLE/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           C:/SPB_Data/mylib/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Feb 16 9:49:35 2021
+   DESIGN NAME : 'HOLE'
+   PACKAGING ON Sep  3 2012 03:32:19
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:42
+elapsed time  0:00:00
+
